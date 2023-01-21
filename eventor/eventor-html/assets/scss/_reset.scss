@@ -1,0 +1,126 @@
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.body-wrap {
+    overflow: hidden;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+.container {
+    max-width: 1200px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h3 {
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.custom-btn {
+    border: 2px solid $base__color;
+    background-color: transparent;
+    border-radius: 32px;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    color: $base__color;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    &:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        background-image: $gradient_hover_color;
+        border-color: transparent;
+        transition: all .4s ease-in-out;
+    }
+}
+
+
+.custom-btn2 {
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    background: $gradient_btn__color;
+    border-radius: 32px;
+    text-align: center;
+    color: white;            
+    box-shadow: 0 0 2px #eee;
+    display: inline-block;
+    transition: all .4s ease-in-out;
+
+    &:hover {
+        background-position: right center; /* change the direction of the change here */
+        background-image: $gradient_hover_color;
+        color: #fff;
+        text-decoration: none;
+        transition: all .4s ease-in-out;
+    }
+}
+
+.modal {
+    overflow: hidden;
+}
+
+.social {
+    display: flex;
+    margin-left: -30px;
+    li {
+        &:not(:last-child) {
+            margin-right: 8px;
+        }
+        a {
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            background-color: black;
+            color: #fff;
+            transition: .7s;
+            
+            &:hover {
+                background: linear-gradient(#7579FF, #B224EF);
+                transition: .7s;
+            }
+        }
+    }
+}
+
+.mode {
+    cursor: pointer;
+}
+.shape {
+    z-index: -1;
+}
+
+hr {
+    color: #605656b8;
+}
+
+.border-color {
+    border-bottom: 1px solid #ececec;
+}
+
+.blog-page {
+    .header-nav-menu {
+        padding-top: 0px!important;
+    }
+}
+

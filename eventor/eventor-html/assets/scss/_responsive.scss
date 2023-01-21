@@ -1,0 +1,489 @@
+/*=========================================
+// 1  media screen and (max-width: 1200px)
+// 2. media screen and (max-width: 992px)
+// 3. media screen and (max-width: 768px)
+// 4. media screen and (max-width: 576px)
+=========================================== */ 
+
+/* max width 1440 px*/
+
+@media screen and(max-width:1440px) {
+    .hero-sec {
+        .highlight-text {
+            margin: -240px 0 0 -60px;
+        }
+    }
+}
+
+/* max width 1199px */
+@media screen and(max-width:1199px) {
+    
+    .hero-sec {
+        .highlight-text {
+            font-size: 140px;
+            margin: -240px 0 0 0px;
+        }
+        
+    }
+    .hero-sec  {
+        .item-content2 {
+            .highlight-text2 {
+                font-size: 180px;
+            }
+            .item-title2 {
+                font-size: 90px;
+                
+            }
+        }
+    }
+    
+    .speakers-gallery-item  {
+        margin-bottom: 30px;
+        .speakers-gallery-item-thumb {
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+    .video-content-wrap {
+        .title {
+            font-size: 27px;
+        }
+    }
+    
+}
+/* max width 991 px*/
+
+@media screen and(max-width: 991px) {
+    .about-sec {
+        .section-head{
+            .title {
+                font-size: 32px;
+            }
+        } 
+    }
+    .hero-sec {
+        .item-image{
+            img {
+                max-width: 270px;
+                margin: auto;
+                margin-top: 70px;
+            }
+            .img-2 {
+                max-width: 245px;
+                float: right;
+                z-index: 1;
+                margin-top: -170px;
+                margin-right: 0px;
+            }
+        }
+        .item-content {
+            .item-title1 {
+                font-size: 35px;
+                line-height: 52px;
+            }
+            .dots-1 {
+                display: none;
+            }
+        }
+        .highlight-text {
+            font-size: 100px;
+            margin: -215px 0 0 0px;
+        } 
+        .item-content2{
+            .item-title2 {
+                font-size: 70px;
+                line-height: 80px;
+            }
+            .highlight-text2 {
+                font-size: 130px;
+            }
+        } 
+    }
+    
+    
+    .highlight-text3 {
+        font-size: 130px;
+        margin: -100px 0 0 0px;
+    }
+    .dots-5 {
+        display: none!important;
+    }
+    .dots-3 {
+        display: none!important;
+    }
+    .cta-sec {
+        .cta-content-wrap {
+            .cta-title {
+                font-size: 42px!important;
+                font-weight: 600;
+                color: #212121;
+            }
+        }
+    }
+    .speakers-gallery-item-thumb {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .video-sec {
+        .video-wrap {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            margin-bottom: 50px;
+            .video-image {
+                img {
+                    width: 100%;
+                }
+            }
+            .video-play {
+                position: sticky;
+                
+            }
+            
+            .dots {
+                position: absolute;
+                top: -10px;
+                right: 230px;
+                opacity: 0.5;
+                z-index: -1;
+            }
+            
+        }
+    }
+    
+    
+    .dots-1 {
+        display: none;
+    }
+    .dots-3 {
+        display: none;
+    }
+    .hero-sec .dots .dots-4 {
+        display: none;
+    }
+    
+    .blog-newsletter-area {
+        .newsletter-title {
+            font-size: 27px;
+        }
+    }
+    .header-area {
+        .nav-item:hover {
+            .drop-down {
+                display: block;
+                position: static;
+            }
+        }
+    }
+}
+/* max width 767 px*/
+
+@media screen and(max-width:767px) {
+    h2 {
+        font-size: 24px;
+    }
+    .hero-sec {
+        .item-content2 {
+            .item-title2 {
+                font-size: 52px;
+                line-height: 80px;
+            }
+            .highlight-text2 {
+                font-size: 100px;
+            }
+        }
+    } 
+    .hero-sec .item-image {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+    .hero-sec .item-image .img-2 {
+        margin-top: 40px;
+        margin-right: 0px;
+    }
+    .hero-sec .item-image img {
+        margin-top: 0;
+    }
+    .brand-items {
+        img {
+            max-width: 100px;
+        }
+    }
+    .about-sec {
+        .section-head{
+            .title {
+                font-size: 24px;
+            }
+        } 
+    }
+    .schedule-sec {
+        .title {
+            font-size: 24px;
+        }
+    }
+    .cta-sec {
+        .cta-content-wrap {
+            .cta-title {
+                font-size: 32px!important;
+                font-weight: 600;
+                color: #212121;
+            }
+        }
+    }
+    .video-sec {
+        .video-wrap {
+            .video-play {
+                img {
+                    margin-top: 0px;
+                }
+                
+            }
+        }
+        
+    }
+
+    .video-sec .video-content-wrap {
+        margin-left: 30px;
+    }
+    
+    .cta-sec {
+        .dots {
+            display: none;
+        }
+    } 
+    .blog-feature-sec {
+        .section-head {
+            .blog-feature-title {
+                font-size: 42px !important;
+            }
+        }
+    }
+}
+
+/* max width 575 px*/
+
+@media screen and(max-width:575px) {
+    .hero-sec {
+        
+        .highlight-text {
+            font-size: 70px;
+        }
+        .item-content2 {
+            .item-title2 {
+                font-size: 35px;
+                line-height: 60px;
+            }
+        }
+        .highlight-text2 {
+            font-size: 65px;
+        }
+        .highlight-text3 {
+            font-size: 70px;
+        }
+    }
+    .hero-sec .item-content2 .highlight-text2 {
+        font-size: 65px;
+    }
+    .info-sec {
+        top: -85px;
+        .info-countdown {
+            .counter-box {
+                li {
+                    strong {
+                        font-size: 36px;
+                    }
+                    span {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    .schedule-sec .schedule-content-wrap .schedule-tab-content .schedule-item {
+        padding: 5px;
+    }
+    
+    .brand-items {
+        img {
+            max-width: 50px;
+        }
+    }
+    
+}
+
+/* max width 400px*/
+
+@media screen and (max-width:420px) {
+    .hero-sec {
+        .item-content{
+            .item-title1 {
+                padding-top: 30px;
+                line-height: 1.2;
+            }
+            .item-sub {
+                margin-bottom: 40px;
+            }
+        }
+        .highlight-text {
+            font-size: 60px;
+            line-height: 3;
+            margin: -90px 0 0 0px;
+        }
+        .item-content2 {
+            .highlight-text2 {
+                font-size: 60px;
+                line-height: 3;
+            }
+        }
+        .highlight-text3 {
+            font-size: 60px;
+            line-height: 3;
+        }
+    }
+    .custom-btn, 
+    .custom-btn2 {
+        border: none;
+        width: 125px;
+        height: 40px;
+    }
+    .cta-sec .cta-content-wrap form input {
+        height: 40px;
+    }
+    
+    .schedule-sec{
+        .title {
+            font-size: 17px;
+        }
+    } 
+    .about-sec{
+        .section-head {
+            .title {
+                font-size: 17px;
+            }
+        }
+    }
+    .section-head {
+        .desc {
+            font-size: 12px;
+        }
+    }
+    
+    h2 {
+        font-size: 17px!important;
+    }
+    .video-sec {
+        .video-content-wrap {
+            .desc {
+                font-size: 13px;
+            }
+            .dots {
+                display: none;
+            }
+        }
+    }
+    
+    .cta-sec {
+        .cta-content-wrap {
+            .cta-title {
+                font-size: 20px !important;
+            }
+            .desc {
+                font-size: 14px;
+            }
+        }
+    }
+    .faq-sec {
+        .title-area{
+            .desc {
+                font-size: 14px;
+            }
+        }
+        .question-area {
+            .accordion {
+                .accordion-item {
+                    .accordion-header {
+                        .accordion-button {
+                            font-size: 16px;
+                        }
+                    }
+                    .accordion-collapse {
+                        .accordion-body {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            } 
+        } 
+    }
+    
+    .schedule-sec{
+        .schedule-content-wrap {
+            .schedule-tab-content{
+                .schedule-item {
+                    .card-description {
+                        margin-left: 10px;
+                        .date,
+                        .time {
+                            font-size: 10px;
+                        }
+                        .name {
+                            font-size: 12px;
+                        }
+                        
+                    }
+                    .card-title-area{
+                        .title {
+                            font-size: 14px;
+                        }
+                        .title-desc {
+                            font-size: 10px;
+                        }
+                    } 
+                }
+            }
+            .schedule-nav-tab{
+                li {
+                    button {
+                        font-size: 12px;
+                    }
+                } 
+            } 
+        }
+    }
+    
+    .card-button {
+        button {
+            font-size: 10px!important;
+        }
+    }
+    .blog-feature-sec {
+        .section-head {
+            .blog-feature-title {
+                font-size: 27px !important;
+            }
+        }
+    }
+    .blog-feature-sec {
+        .blog-feature-wrap {
+            .blog-feature-content {
+                .blog-feature-title {
+                    font-size: 22px;
+                }
+                .blog-feature-desc {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .blog-newsletter-area {
+        .newsletter-title {
+            font-size: 22px;
+        }
+    }
+}
+

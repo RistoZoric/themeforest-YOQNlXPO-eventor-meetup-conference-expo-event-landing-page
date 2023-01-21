@@ -1,0 +1,64 @@
+/* faq sec start */
+.faq-sec {
+    padding: 80px 0px;
+    .title-area {
+        .title {
+            line-height: 44.2px;
+            padding-right: 55px;
+        }
+        .desc {
+            font-size: 18px;
+            color: $text_para__color;
+        }
+        
+    }
+    .question-area {
+        .accordion {
+            .accordion-item {
+                border-left: none;
+                border-right: none;
+                border-top: none;
+                border-bottom: 1px solid;
+                border-image-slice: 1;
+                border-image-source: $gradient_base__color;
+                border-radius: 0;
+                .accordion-header {
+                    .accordion-button {
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: $text__color;
+                        padding: 25px 0px;
+                        border: none;
+                        box-shadow: none;
+                        &:not(.collapsed) {
+                            background-color: transparent!important;
+                        }
+                    }
+                }
+                .accordion-collapse {
+                    .accordion-body {
+                        line-height: 120%;
+                        color: #788190;
+                        padding-top: 0px;
+                        padding-left: 0px
+                    }
+                }
+            }
+        }
+    }
+}
+.accordion-button:not(.collapsed)::after {
+    content: "\2715";
+    // font-family: "Font Awesome 5 Free";
+    color: black;
+    background-image: none;
+  }
+
+.accordion-button.collapsed::after {
+    content: "\002B";
+    color: black;
+    font-weight: 600;
+    font-family: "Font Awesome 5 Free";
+    background-image: none;
+  }
+/* faq sec end */

@@ -1,0 +1,2230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Eventor Homepage Conference (Light) V1.0</title>
+   
+   <!-- google font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+   
+   <!-- animation -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+   
+   <!-- magnific popup -->
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+   
+   <!-- font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+   integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+   crossorigin="anonymous" referrerpolicy="no-referrer">
+   
+   <!-- slik carousel -->
+   <link rel="stylesheet" href="assets/css/slick-theme.css">
+   <link rel="stylesheet" href="assets/css/slick.css">
+   
+   <!-- bootstrap -->
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   
+   <!-- css -->
+   <link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- Color switch Alternatives -->
+   <link rel="stylesheet" type="text/css" href="color-switch/css/switch.css">
+	<link href="color-switch/css/color-2.css" rel="alternate stylesheet" type="text/css" title="color-2">
+	<link href="color-switch/css/color-3.css" rel="alternate stylesheet" type="text/css" title="color-3">
+	<link href="color-switch/css/color-4.css" rel="alternate stylesheet" type="text/css" title="color-4">
+	<link href="color-switch/css/color-5.css" rel="alternate stylesheet" type="text/css" title="color-5">
+	<link href="color-switch/css/color-6.css" rel="alternate stylesheet" type="text/css" title="color-6">
+	<link href="color-switch/css/color-7.css" rel="alternate stylesheet" type="text/css" title="color-7">
+	<link href="color-switch/css/color-8.css" rel="alternate stylesheet" type="text/css" title="color-8">
+   
+</head>
+<body>
+   <!-- This code is use for color chooser, you can delete -->
+	<div id="switch-color" class="color-switcher">
+		<div class="open"><i class="fas fa-cog"></i></div>
+		<h4>COLOR OPTION</h4>
+		<ul>
+			<li><a class="color-1" onclick="setActiveStyleSheet('main'); return false;" href="#"><i class="fas fa-cog"></i></a> </li>
+			<li><a class="color-2" onclick="setActiveStyleSheet('color-2'); return false;" href="#"><i class="fas fa-cog"></i></a> </li>
+			<li><a class="color-3" onclick="setActiveStyleSheet('color-3'); return false;" href="#"><i class="fas fa-cog"></i></a> </li>
+			<li><a class="color-4" onclick="setActiveStyleSheet('color-4'); return false;" href="#"><i class="fas fa-cog"></i></a> </li>
+			<li><a class="color-5" onclick="setActiveStyleSheet('color-5'); return false;" href="#"><i class="fas fa-cog"></i></a> </li>
+			<li><a class="color-6" onclick="setActiveStyleSheet('color-6'); return false;" href="#"><i class="fas fa-cog"></i></a> </li>
+			<li><a class="color-7" onclick="setActiveStyleSheet('color-7'); return false;" href="#"><i class="fas fa-cog"></i></a> </li>
+			<li><a class="color-8" onclick="setActiveStyleSheet('color-8'); return false;" href="#"><i class="fas fa-cog"></i></a> </li>
+		</ul>
+	</div>
+   <!-- end color switch -->
+
+
+   <div class="body-wrap">
+      <!-- header area start -->
+      <header class="header-area">
+         <nav class="header-nav navbar fixed-top navbar-expand-lg position-absolute w-100">
+            <div class="container header-nav-menu">
+               <a class="navbar-brand" href="index.html">
+                  <img src="assets/images/logo/logo.png" alt="Header Logo">
+               </a>
+              
+               <div class="collapse navbar-collapse d-none d-lg-block">
+                  <ul class="navbar-nav m-auto">
+                     <li class="nav-item">
+                        <a href="index.html" class="nav-link py-3">Homepages</a>
+                        <div class="drop-down">
+                           <div class="row drop-down-wrap g-0">
+                              <div class="col-7">
+                                 <ul class="drop-down-menu">
+                                    <li class="dropdown-item d-flex align-items-center">
+                                       <div class="item-icon">
+                                          <img src="assets/images/icon/icon.svg" alt="icon Images">
+                                       </div>
+                                       <a href="index.html" class="item-content">
+                                          <h5 class="item-title">Homepage Conference</h5>
+                                          <span class="item-sub">Sessions Overview</span>
+                                       </a>
+                                    </li>
+                                    <li class="dropdown-item d-flex align-items-center">
+                                       <div class="item-icon">
+                                          <img src="assets/images/icon/icon2.svg" alt="icon Images">
+                                       </div>
+                                       <a href="index-music.html" class="item-content">
+                                          <h5 class="item-title">Homepage Music</h5>
+                                          <span class="item-sub">Sessions Overview</span>
+                                       </a>
+                                    </li>
+                                    <li class="dropdown-item d-flex align-items-center">
+                                       <div class="item-icon">
+                                          <img src="assets/images/icon/icon3.svg" alt="icon Images">
+                                       </div>
+                                       <a href="index-eventbrite.html" class="item-content">
+                                          <h5 class="item-title">Homepage Eventbrite</h5>
+                                          <span class="item-sub">Sessions Overview</span>
+                                       </a>
+                                    </li>
+                                    <li class="dropdown-item d-flex align-items-center">
+                                       <div class="item-icon">
+                                          <img src="assets/images/icon/icon4.svg" alt="icon Images">
+                                       </div>
+                                       <a href="index-dark.html" class="item-content">
+                                          <h5 class="item-title">Homepage Dark</h5>
+                                          <span class="item-sub">Sessions Overview</span>
+                                       </a>
+                                    </li>
+                                 </ul>
+                              </div>
+                              <div class="col-5">
+                                 <div class="dropdown-thumb position-relative" style="background-image: url(assets/images/banner/home-conference-dropdown-bg.jpg);">
+                                    <a class="dropdown-sub position-absolute" href="#">Register Now</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#about" class="nav-link py-3">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#schedule" class="nav-link py-3">Schedule</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#sponsors" class="nav-link py-3">Sponsors</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#speakers" class="nav-link py-3">Speakers</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#pricing" class="nav-link py-3">Pricing</a>
+                     </li>
+                  </ul>
+                  <div class="mode-and-button d-flex align-items-center">
+                     <div class="mode me-md-3">
+                        <img src="assets/images/icon/sun.svg" alt="Sun" class="fa-sun" style="display: none;">
+                        <img src="assets/images/icon/moon.svg" alt="Moon" class="fa-moon">
+                     </div>
+                     <button class="header-btn custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                  </div>
+               </div>
+
+               <!-- mobile menu -->
+               <div class="mobile-view-header d-block d-lg-none d-flex gap-3 align-items-center">
+                  <div class="mode me-md-3">
+                     <img src="assets/images/icon/sun.svg" alt="Sun" class="fa-sun" style="display: none;">
+                     <img src="assets/images/icon/moon.svg" alt="Moon" class="fa-moon">
+                  </div>
+                  <button class="header-btn custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+
+                  <a class="border rounded-1 py-1 px-2 bg-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                     <span class="navbar-toggler-icon nav-toggler-icon"></span>
+                  </a>
+
+                  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" >
+                     <div class="offcanvas-header">
+                        <a class="navbar-brand" href="index.html">
+                           <img src="assets/images/logo/logo.png" alt="Header Logo">
+                        </a>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                     </div>
+                     <div class="offcanvas-body">
+                        <div class="dropdown mt-3">
+                           <ul class="navbar-nav m-auto">
+                              <li class="nav-item">
+                                 <a href="index.html" class="nav-link py-3">Homepages</a>
+                                 <div class="drop-down">
+                                    <div class="row drop-down-wrap g-0">
+                                       <div class="col-7">
+                                          <ul class="drop-down-menu">
+                                             <li class="dropdown-item d-flex align-items-center">
+                                                <div class="item-icon">
+                                                   <img src="assets/images/icon/icon.svg" alt="icon Images">
+                                                </div>
+                                                <a href="#" class="item-content">
+                                                   <h5 class="item-title">Homepage Conference</h5>
+                                                   <span class="item-sub">Sessions Overview</span>
+                                                </a>
+                                             </li>
+                                             <li class="dropdown-item d-flex align-items-center">
+                                                <div class="item-icon">
+                                                   <img src="assets/images/icon/icon2.svg" alt="icon Images">
+                                                </div>
+                                                <a href="#" class="item-content">
+                                                   <h5 class="item-title">Homepage Conference</h5>
+                                                   <span class="item-sub">Sessions Overview</span>
+                                                </a>
+                                             </li>
+                                             <li class="dropdown-item d-flex align-items-center">
+                                                <div class="item-icon">
+                                                   <img src="assets/images/icon/icon3.svg" alt="icon Images">
+                                                </div>
+                                                <a href="#" class="item-content">
+                                                   <h5 class="item-title">Homepage Conference</h5>
+                                                   <span class="item-sub">Sessions Overview</span>
+                                                </a>
+                                             </li>
+                                             <li class="dropdown-item d-flex align-items-center">
+                                                <div class="item-icon">
+                                                   <img src="assets/images/icon/icon4.svg" alt="icon Images">
+                                                </div>
+                                                <a href="#" class="item-content">
+                                                   <h5 class="item-title">Homepage Conference</h5>
+                                                   <span class="item-sub">Sessions Overview</span>
+                                                </a>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                       <div class="col-5">
+                                          <div class="dropdown-thumb position-relative" style="background-image: url(assets/images/banner/home-conference-dropdown-bg.jpg);">
+                                             <span class="dropdown-sub position-absolute">Register Now</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="nav-item">
+                                 <a href="#about" class="nav-link py-3">About</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a href="#schedule" class="nav-link py-3">Schedule</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a href="#sponsors" class="nav-link py-3">Sponsors</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a href="#speakers" class="nav-link py-3">Speakers</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a href="#pricing" class="nav-link py-3">Pricing</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- end mobile menu -->
+
+            </div>
+         </nav>
+         
+         <!-- hero sec start -->
+         <section class="hero-sec"  style="background-image: url(assets/images/banner/group.png);">
+            <div class="hero-slider-wrap">
+               
+               <div class="hero-slider-item overflow-hidden">
+                  <div class="container">
+                     <div class="row align-items-center">
+                        <div class="col-lg-8 col-md-6 order-md-1 order-2">
+                           <div class="slider-item-content-wrap">
+                              <div class="item-content">
+                                 <h3 class="item-title1">
+                                    The leading nonprofit
+                                    conference of the year
+                                 </h3>
+                                 <p class="item-sub">
+                                    Join us for Eventor Collaborative: Virtual Sessions on October 2023
+                                 </p>
+                                 <div class="button-group">
+                                    <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Register</button>
+                                    <button class="custom-btn item-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Watch Video</button>
+                                 </div>
+                                 <img src="assets/images/dots/dots.png" alt="Shadow Image" class="dots-1 opacity-50 img-moving-anim2">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 order-md-2 order-1">
+                           <div class="item-image">
+                              <div class="img-1 img-moving-anim1">
+                                 <img src="assets/images/banner-slider/2.jpg" alt="Event template">
+                              </div>
+                              <div class="img-2 img-moving-anim2">
+                                 <img src="assets/images/banner-slider/1.jpg" alt="Event template">
+                              </div>
+                              <img src="assets/images/dots/dots2.png" alt="Shadow Image" class="dots-2 img-moving-anim3">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="highlight-text img-moving-anim4">
+                        <strong class="big-title"><span class="text">CONF 2023</span></strong>
+                     </div>
+                  </div>
+               </div>
+               
+               <div class="hero-slider-item overflow-hidden">
+                  <div class="container position-relative">
+                     <div class="row align-items-center slide-2">
+                        <div class="text-center">
+                           <div class="slider-item-content-wrap">
+                              <div class="item-content2">
+                                 <h3 class="item-title2">
+                                    The leading nonprofit
+                                    conference of the year
+                                 </h3>
+                                 <div class="conference-video">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa-solid fa-play"></i></a>
+                                 </div>
+                                 <div class="highlight-text2 img-moving-anim4">
+                                    <strong class="big-title"><span class="text">CONF 2023</span></strong>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="dots">
+                        <img src="assets/images/dots/dots2.png" alt="Shadow Image" class="dots-4 img-moving-anim2">
+                     </div>
+                  </div>
+                  <img src="assets/images/dots/dots5.png" alt="Shadow Image" class="dots-3 img-moving-anim3">
+               </div>
+               
+               <div class="hero-slider-item overflow-hidden">
+                  <div class="container">
+                     <div class="row align-items-center slide-3">
+                        <div class="col-lg-8 col-md-6 order-md-1 order-2">
+                           <div class="slider-item-content-wrap">
+                              <div class="item-content">
+                                 <h3 class="item-title1">
+                                    The leading nonprofit
+                                    conference of the year
+                                 </h3>
+                                 <p class="item-sub">
+                                    Join us for Eventor Collaborative: Virtual Sessions on October 2023
+                                 </p>
+                                 <div class="button-group">
+                                    <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Register</button>
+                                    <button class="custom-btn item-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Watch Video</button>
+                                 </div>
+                                 <img src="assets/images/dots/dots.png" alt="Shadow Image" class="dots-1 img-moving-anim3">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 order-md-2 order-1">
+                           <div class="item-video">
+                              <div class="img-3 img-moving-anim1">
+                                 <img src="assets/images/banner-slider/3.jpg" alt="Event template">
+                                 <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#"><i class="fa-solid fa-play"></i></a>
+                              </div>
+                           </div>
+                           <img src="assets/images/dots/dots2.png" alt="Shadow Image" class="dots-5 img-moving-anim3">
+                        </div>
+                     </div>
+                     <div class="highlight-text3 img-moving-anim4">
+                        <strong class="big-title"><span class="text">CONF 2023</span></strong>
+                     </div>
+                  </div>
+               </div>
+               
+            </div>
+         </section>
+         <!-- hero sec start -->
+      </header>
+      <!-- header area end -->
+      
+      
+      <!-- info sec start -->
+      <div class="info-sec">
+         <div class="container">
+            <div class="info-countdown" style="background-image: url(assets/images/banner/bg.png);">
+               <ul class="counter-box d-flex justify-content-around" data-countdown="2024/10/24">
+               </ul>
+               <div class="dots img-moving-anim2">
+                  <img src="assets/images/dots/dots3.png" alt="Shadow Image">
+               </div>
+            </div>
+            <div class="information-area">
+               <div class="row g-4">
+                  <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="600">
+                     <div class="mail">
+                        <div class="icon"><img src="assets/images/icon/mail.svg" alt="Mail"></div>
+                        <a href="#" class="mail-link">conference@eventor.com</a>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800">
+                     <div class="location">
+                        <div class="icon"><img src="assets/images/icon/map-pin.svg" alt="Map"></div>
+                        <a href="#" class="location-link">1000 S Eighth Ave, NYC.</a>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="1000">
+                     <div class="number">
+                        <div class="icon"><img src="assets/images/icon/phone.svg" alt="Phone"></div>
+                        <a href="#" class="number-link">+1 (646) 652-0000/1000</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- info sec end -->
+      
+      <!-- about sec start -->
+      <section id="about" class="about-sec">
+         <div class="container">
+            <div class="section-head col-xl-9 m-auto text-center mb-5">
+               <span class="label">Welcome to Eventor Conference 2023</span>
+               <h1 class="title mb-4">
+                  The conference on the design, and engineering
+                  is focused on programming topics
+               </h1>
+               <p class="desc mx-3">
+                  Eventor Collaborative, brought to you by IBM, Google and AWS, is where the most inventive and forward-thinking nonprofit leaders come together to discover emerging trends in fundraising and technology.
+               </p>
+            </div>
+            <div class="about-items-wrap" data-aos="fade-right" data-aos-duration="1000">
+               <div class="row g-4">
+                  <div class="col-lg-6" data-aos="fade-right" data-aos-duration="800">
+                     <div class="about-item">
+                        <div class="item-thumb">
+                           <img src="assets/images/about/about1.png" alt="About Images">
+                           <div class="item-content">
+                              <div class="content-title text-white">
+                                 <span class="date">October3,2023</span>
+                                 <h5 class="title">Virtual sessions. Eventor Live@MAX</h5>
+                              </div>
+                              <div class="about-video">
+                                 <a class="video-btn1 popup-video" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="http://www.youtube.com/watch?v=0O2aH4XLbto"><span><i class="fas fa-play"></i></span></a>
+                              </div>
+                           </div>
+                        </div>      
+                     </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-3" data-aos="fade-right" data-aos-duration="700">
+                     <div class="about-item">
+                        <div class="item-thumb">
+                           <img src="assets/images/about/about2.png" alt="About Images">
+                           <div class="item-content text-white">
+                              <div class="content-title">
+                                 <span class="date">October3,2023</span>
+                                 <h5 class="title">Opening</h5>
+                              </div>
+                              <div class="about-video">
+                                 <a class="video-btn1 popup-video" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href=""><span><i class="fas fa-play"></i></span></a>
+                              </div>
+                           </div>
+                        </div> 
+                     </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-3" data-aos="fade-right" data-aos-duration="600">
+                     <div class="about-item">
+                        <div class="item-thumb">
+                           <img src="assets/images/about/about3.png" alt="About Images">
+                           <div class="item-content text-white">
+                              <div class="content-title">
+                                 <span class="date">October3,2023</span>
+                                 <h5 class="title">Inspiration Art</h5>
+                              </div>
+                              <div class="about-video">
+                                 <a class="video-btn1 popup-video" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="http://www.youtube.com/watch?v=0O2aH4XLbto"><span><i class="fas fa-play"></i></span></a>
+                              </div>
+                           </div>
+                        </div> 
+                     </div>
+                  </div>
+                  <div class="dots img-moving-anim5">
+                     <img src="assets/images/dots/dots4.png" alt="Shape Images">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="shape">
+            <img src="assets/images/shape/1.svg" alt="Shadow">
+         </div>
+      </section>
+      <!-- about sec end -->
+      <div class="container mt-5">
+         <hr>
+      </div>
+      
+      <!-- schedule sec start -->
+      <section id="schedule" class="schedule-sec">
+         <div class="container">
+            <div class="section-head text-center col-xl-8 m-auto mb-5">
+               <span class="label mb-4">Our Conference Schedule 2023</span>
+               <h2 class="title">
+                  An environment where participants and experts
+                  can exchange ideas and experiences
+               </h2>
+            </div>
+            <div class="schedule-content-wrap">
+               <ul class="nav nav-pills schedule-nav-tab mb-5" id="pills-tab" role="tablist">
+                  <li class="nav-item schedule-nav-item" role="presentation">
+                     <button class="nav-link active" id="pills-day-1-tab" data-bs-toggle="pill" data-bs-target="#pills-day-1" type="button" role="tab" aria-controls="pills-day-1" aria-selected="true">Day 01</button>
+                  </li>
+                  <li class="nav-item schedule-nav-item" role="presentation">
+                     <button class="nav-link" id="pills-day-2-tab" data-bs-toggle="pill" data-bs-target="#pills-day-2" type="button" role="tab" aria-controls="pills-day-2" aria-selected="false">Day 02</button>
+                  </li>
+                  <li class="nav-item schedule-nav-item" role="presentation">
+                     <button class="nav-link" id="pills-day-3-tab" data-bs-toggle="pill" data-bs-target="#pills-day-3" type="button" role="tab" aria-controls="pills-day-3" aria-selected="false">Day 03</button>
+                  </li>
+                  <li class="nav-item schedule-nav-item" role="presentation">
+                     <button class="nav-link" id="pills-day-4-tab" data-bs-toggle="pill" data-bs-target="#pills-day-4" type="button" role="tab" aria-controls="pills-day-4" aria-selected="true">Day 04</button>
+                  </li>
+                  <li class="nav-item schedule-nav-item" role="presentation">
+                     <button class="nav-link" id="pills-day-5-tab" data-bs-toggle="pill" data-bs-target="#pills-day-5" type="button" role="tab" aria-controls="pills-day-5" aria-selected="false">Day 05</button>
+                  </li>
+                  <li class="nav-item schedule-nav-item" role="presentation">
+                     <button class="nav-link" id="pills-day-6-tab" data-bs-toggle="pill" data-bs-target="#pills-day-6" type="button" role="tab" aria-controls="pills-day-6" aria-selected="false">Day 06</button>
+                  </li>
+                  <li class="nav-item schedule-nav-item" role="presentation">
+                     <button class="nav-link" id="pills-day-7-tab" data-bs-toggle="pill" data-bs-target="#pills-day-7" type="button" role="tab" aria-controls="pills-day-7" aria-selected="false">Day 07</button>
+                  </li>
+                  
+               </ul>
+               <div class="tab-content schedule-tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-day-1" role="tabpanel" aria-labelledby="pills-day-1-tab" tabindex="0">
+                     <div class="row schedule-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule1.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb item-thumb">
+                                 <img src="assets/images/profile1.png" alt="Profile 1">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Stella Smith</span>
+                                 <span class="date d-block">October2,2023</span>
+                                 <span class="time d-block">08:00 - 08:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Presentation and Keynotes</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row schedule-item" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule2.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile2.png" alt="Profile 2">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Thomas Smith</span>
+                                 <span class="date d-block">October 2, 2023</span>
+                                 <span class="time d-block">09:00 - 09:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Sessions and Labs</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row schedule-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule1.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile3.png" alt="Profile 3">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Monica Smith</span>
+                                 <span class="date d-block">October 2, 2023</span>
+                                 <span class="time d-block">10:00 - 10:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Events and Networking</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row schedule-item" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule2.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile4.png" alt="Profile 4">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Stella Smith</span>
+                                 <span class="date d-block">October2,2023</span>
+                                 <span class="time d-block">08:00 - 08:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Luminary Sessions</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-day-2" role="tabpanel" aria-labelledby="pills-day-2-tab" tabindex="0">
+                     <div class="row schedule-item" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule2.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile2.png" alt="Profile 2">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Thomas Smith</span>
+                                 <span class="date d-block">October 2, 2023</span>
+                                 <span class="time d-block">09:00 - 09:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class="d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Sessions and Labs</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-buttoncol-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="row schedule-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule1.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile1.png" alt="Profile 1">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Stella Smith</span>
+                                 <span class="date d-block">October2,2023</span>
+                                 <span class="time d-block">08:00 - 08:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Presentation and Keynotes</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="row schedule-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule1.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile3.png" alt="Profile 3">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Monica Smith</span>
+                                 <span class="date d-block">October 2, 2023</span>
+                                 <span class="time d-block">10:00 - 10:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Events and Networking</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row schedule-item" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule2.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile4.png" alt="Profile 4">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Vincent Smith</span>
+                                 <span class="date d-block">October2,2023</span>
+                                 <span class="time d-block">08:00 - 08:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Luminary Sessions</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-day-3" role="tabpanel" aria-labelledby="pills-day-3-tab" tabindex="0">
+                     <div class="row schedule-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule1.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile3.png" alt="Profile 3">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Monica Smith</span>
+                                 <span class="date d-block">October 2, 2023</span>
+                                 <span class="time d-block">10:00 - 10:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Events and Networking</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="row schedule-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule1.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile1.png" alt="Profile 1">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Stella Smith</span>
+                                 <span class="date d-block">October2,2023</span>
+                                 <span class="time d-block">08:00 - 08:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Presentation and Keynotes</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row schedule-item" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule2.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile2.png" alt="Profile 2">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Thomas Smith</span>
+                                 <span class="date d-block">October 2, 2023</span>
+                                 <span class="time d-block">09:00 - 09:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Sessions and Labs</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="row schedule-item" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule2.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile4.png" alt="Profile 4">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Vincent Smith</span>
+                                 <span class="date d-block">October2,2023</span>
+                                 <span class="time d-block">08:00 - 08:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Luminary Sessions</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-day-4" role="tabpanel" aria-labelledby="pills-day-4-tab" tabindex="0">
+                     <div class="row schedule-item" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule2.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile4.png" alt="Profile 4">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Vincent Smith</span>
+                                 <span class="date d-block">October2,2023</span>
+                                 <span class="time d-block">12:00 - 12:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Luminary Sessions</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="row schedule-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule1.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile1.png" alt="Profile 1">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Stella Smith</span>
+                                 <span class="date d-block">October2,2023</span>
+                                 <span class="time d-block">08:00 - 08:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Presentation and Keynotes</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="row schedule-item" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule2.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile2.png" alt="Profile 2">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Thomas Smith</span>
+                                 <span class="date d-block">October 2, 2023</span>
+                                 <span class="time d-block">09:00 - 09:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Sessions and Labs</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="row schedule-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule1.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile3.png" alt="Profile 3">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Monica Smith</span>
+                                 <span class="date d-block">October 2, 2023</span>
+                                 <span class="time d-block">10:00 - 10:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Events and Networking</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-pane fade"  id="pills-day-5" role="tabpanel" aria-labelledby="pills-day-5-tab" tabindex="0">
+                     <div class="row schedule-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule1.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile3.png" alt="Profile 3">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Monica Smith</span>
+                                 <span class="date d-block">October 2, 2023</span>
+                                 <span class="time d-block">10:00 - 10:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Events and Networking</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="row schedule-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule1.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile1.png" alt="Profile 1">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Stella Smith</span>
+                                 <span class="date d-block">October2,2023</span>
+                                 <span class="time d-block">08:00 - 08:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Presentation and Keynotes</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row schedule-item" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule2.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile2.png" alt="Profile 2">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Thomas Smith</span>
+                                 <span class="date d-block">October 2, 2023</span>
+                                 <span class="time d-block">09:00 - 09:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Sessions and Labs</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="row schedule-item" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule2.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile4.png" alt="Profile 4">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Vincent Smith</span>
+                                 <span class="date d-block">October2,2023</span>
+                                 <span class="time d-block">08:00 - 08:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Luminary Sessions</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-day-6" role="tabpanel" aria-labelledby="pills-day-6-tab" tabindex="0">
+                     <div class="row schedule-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule1.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile1.png" alt="Profile 1">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Stella Smith</span>
+                                 <span class="date d-block">October2,2023</span>
+                                 <span class="time d-block">08:00 - 08:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Presentation and Keynotes</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row schedule-item" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule2.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile2.png" alt="Profile 2">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Thomas Smith</span>
+                                 <span class="date d-block">October 2, 2023</span>
+                                 <span class="time d-block">09:00 - 09:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Presentation and Keynotes</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row schedule-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule1.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile3.png" alt="Profile 3">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Monica Smith</span>
+                                 <span class="date d-block">October 2, 2023</span>
+                                 <span class="time d-block">10:00 - 10:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Presentation and Keynotes</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row schedule-item" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule2.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile4.png" alt="Profile 4">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Stella Smith</span>
+                                 <span class="date d-block">October2,2023</span>
+                                 <span class="time d-block">08:00 - 08:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Presentation and Keynotes</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-day-7" role="tabpanel" aria-labelledby="pills-day-7-tab" tabindex="0">
+                     <div class="row schedule-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule1.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile3.png" alt="Profile 3">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Monica Smith</span>
+                                 <span class="date d-block">October 2, 2023</span>
+                                 <span class="time d-block">10:00 - 10:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Events and Networking</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="row schedule-item" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule1.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile1.png" alt="Profile 1">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Stella Smith</span>
+                                 <span class="date d-block">October2,2023</span>
+                                 <span class="time d-block">08:00 - 08:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Presentation and Keynotes</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row schedule-item" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule2.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile2.png" alt="Profile 2">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Thomas Smith</span>
+                                 <span class="date d-block">October 2, 2023</span>
+                                 <span class="time d-block">09:00 - 09:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Sessions and Labs</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="row schedule-item" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" style="background-image: url(assets/images/banner/schedule2.png);">
+                        <div class="col-lg-4">
+                           <div class="d-flex align-items-center justify-content-around">
+                              <div class="card-thumb">
+                                 <img src="assets/images/profile4.png" alt="Profile 4">
+                              </div>
+                              <div class="card-description">
+                                 <span class="name d-block">Vincent Smith</span>
+                                 <span class="date d-block">October2,2023</span>
+                                 <span class="time d-block">08:00 - 08:45</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-8">
+                           <div class=" d-flex align-items-center justify-content-between">
+                              <div class="card-title-area col-7">
+                                 <h4 class="title">Luminary Sessions</h4>
+                                 <p class="title-desc">Discover the latest trends in creativity and get inspired by creative leaders.<a href="#">Read More</a></p>
+                              </div>
+                              <div class="card-button col-5">
+                                 <button class="custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class=" text-center py-3">
+                  <button class="custom-btn schedule-btn">Download</button>
+               </div>
+               <div class="dots img-moving-anim1">
+                  <img src="assets/images/dots/dots2.png" alt="Shadow Image">
+               </div>
+            </div>
+         </div>
+         <div class="shape">
+            <img src="assets/images/shape/2.svg" alt="Shape">
+         </div>
+      </section>
+      <!-- schedule sec end -->
+      
+      <!-- brand sec start -->
+      <div id="sponsors" class="brand-sec">
+         <div class="container">
+            <div class="brand-items-wrap d-md-flex text-center justify-content-around align-items-center" data-aos="fade-up" data-aos-duration="1000">
+               <div class="brand-item mb-3">
+                  <div class="icon">
+                     <img src="assets/images/brand/1.png" alt="Brand Image 1"> Logoipsum
+                  </div>
+               </div>
+               <div class="brand-item mb-3">
+                  <div class="icon">
+                     <img src="assets/images/brand/brand2.png" alt="Brand Image 2">
+                  </div>
+               </div>
+               <div class="brand-item mb-3">
+                  <div class="icon">
+                     <img src="assets/images/brand/3.png" alt="Brand Image 3"> Logoipsum
+                  </div>
+               </div>
+               <div class="brand-item mb-3">
+                  <div class="icon">
+                     <img src="assets/images/brand/brand4.png" alt="Brand Image 4">
+                  </div>
+               </div>
+               <div class="brand-item mb-3">
+                  <div class="icon">
+                     <img src="assets/images/brand/5.png" alt="Brand Image 5"> Logoipsum
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- brand sec end -->
+      
+      <!-- video sec start -->
+      <section class="video-sec" data-src="assets/images/banner/home-conference-video-bg.svg" data-parallax>
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-lg-6">
+                  <div class="video-wrap">
+                     <div class="video-image img-moving-anim1">
+                        <img src="assets/images/video/video1.jpg" alt="Video Image 1">
+                     </div>
+                     <div class="video-play">
+                        <img src="assets/images/video/video2.jpg" alt="Video Image 2"  data-bs-backdrop="static">
+                        <a class="video-btn1 popup-video" href=""  data-bs-toggle="modal" data-bs-target="#staticBackdrop"><span><i class="fas fa-play"></i></span></a>
+                     </div>
+                     <div class="dots img-moving-anim2">
+                        <img src="assets/images/dots/dots6.png" alt="Shadow Image">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="video-content-wrap">
+                     <h2 class="title">
+                        Be inspired by expert speakers in design, video, and more
+                     </h2>
+                     <p class="desc">
+                        Plan your week to make the most of all the sessions and labs, Community Eventor activities, and fun ways to connect with other creatives.
+                        <br><br>
+                        Join us in person or attend virtually for free. Register now, in-person attendance is limited.
+                     </p>
+                     <div class="management d-flex">
+                        <h3 class="event count-block p-lg-5 p-3"><span>07</span>Days Event</h3>
+                        <h3 class="speakers count-block p-lg-5 p-3"><span>20+</span>Speakers</h3>
+                     </div>
+                     <div class="dots img-moving-anim3">
+                        <img src="assets/images/dots/dots7.png" alt="Shadow Image">
+                     </div>
+                     <button class="custom-btn2 video-btn">Resister Now</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- video sec end -->
+      
+      <!-- speakers sec start -->
+      <section id="speakers" class="speakers-gallery-sec position-relative">
+         <div class="container">
+            <div class="section-head col-xl-8 m-auto text-center mb-5">
+               <span class="label">Meet Our Experts, and Speakers</span>
+               <h2 class="title">
+                  Meet our fantastic speakers from around the globe
+                  and join in with live debates & events
+               </h2>
+            </div>
+            <div class="speakers-gallery-items-wrap">
+               <div class="row">
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                     <div class="speakers-gallery-item" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="400">
+                        <div class="speakers-gallery-item-thumb overflow-hidden position-relative">
+                           <img src="assets/images/gallery/gallery1.jpg" alt="Gallery Image 1">
+                        </div>
+                        <div class="">
+                           <ul class="social-icons social">
+                              <li>
+                                 <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                              </li>
+                              <li>
+                                 <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                              </li>
+                              <li>
+                                 <a href=""><i class="fa-brands fa-twitter"></i></a>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="item-content">
+                           <h3 class="title">Stella Smith</h3>
+                           <span class="sub">Eventor Live Max</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                     <div class="speakers-gallery-item" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
+                        <div class="speakers-gallery-item-thumb overflow-hidden position-relative">
+                           <img src="assets/images/gallery/gallery2.jpg" alt="Gallery Image 2">
+                        </div>
+                        <ul class="social-icons social">
+                           <li>
+                              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                           </li>
+                           <li>
+                              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                           </li>
+                           <li>
+                              <a href=""><i class="fa-brands fa-twitter"></i></a>
+                           </li>
+                        </ul>
+                        <div class="item-content">
+                           <h3 class="title">Stella Smith</h3>
+                           <span class="sub">Eventor Live Max</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                     <div class="speakers-gallery-item" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
+                        <div class="speakers-gallery-item-thumb overflow-hidden position-relative">
+                           <img src="assets/images/gallery/gallery3.jpg" alt="Gallery Image 3">
+                        </div>
+                        <ul class="social-icons social">
+                           <li>
+                              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                           </li>
+                           <li>
+                              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                           </li>
+                           <li>
+                              <a href=""><i class="fa-brands fa-twitter"></i></a>
+                           </li>
+                        </ul>
+                        <div class="item-content">
+                           <h3 class="title">Stella Smith</h3>
+                           <span class="sub">Eventor Live Max</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                     <div class="speakers-gallery-item" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+                        <div class="speakers-gallery-item-thumb overflow-hidden position-relative">
+                           <img src="assets/images/gallery/gallery4.jpg" alt="Gallery Image 4">
+                        </div>
+                        <ul class="social-icons social">
+                           <li>
+                              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                           </li>
+                           <li>
+                              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                           </li>
+                           <li>
+                              <a href=""><i class="fa-brands fa-twitter"></i></a>
+                           </li>
+                        </ul>
+                        <div class="item-content">
+                           <h3 class="title">Stella Smith</h3>
+                           <span class="sub">Eventor Live Max</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="dots img-moving-anim1">
+                  <img src="assets/images/dots/dots8.png" alt="Shadow Image">
+               </div>
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+               <button class="custom-btn custom-btn2">+ Speakers</button>
+            </div>
+         </div>
+         <div class="shape">
+            <img src="assets/images/shape/3.svg" alt="">
+         </div>
+      </section>
+      <!-- speakers sec end -->
+      <div class="container">
+         <hr>
+      </div>
+      <!-- cta sec start-->
+      <section class="cta-sec">
+         <div class="container">
+            <div class="cta-content-wrap text-center" data-aos="fade-right" data-aos-duration="1000">
+               <h2 class="cta-title  m-auto mb-4 mx-5">
+                  The design, engineering, art, and science of programming
+               </h2>
+               <p class="desc mb-5">
+                  Join us for Eventor Collaborative: Virtual Sessions on October 2023
+               </p>
+               <form action="#">
+                  <input type="text" name="email" class="form-control" placeholder="Enter Your Email">
+                  <button class="custom-btn custom-btn2">Submit</button>
+               </form>
+               <div class="dots">
+                  <img src="assets/images/dots/dots9.png" alt="Shadow Image" class="cta-dots-1 img-moving-anim1">
+                  <img src="assets/images/dots/dots10.png" alt="Shadow Image" class="cta-dots-2 img-moving-anim2">
+               </div>
+            </div>
+         </div>
+         <div class="shape">
+            <img src="assets/images/shape/4.svg" alt="Shape">
+         </div>
+      </section>
+      <!-- cta sec end-->
+      
+      <!-- review sec start -->
+      <section class="review-sec" style="background-image: url(assets/images/banner/review.png);">
+         <div class="container" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+            <h2 class="review-title col-10 col-md-10 col-lg-8 col-xl-7 my-5">
+               Join 3,500+ developers, engineers, designers and executives
+            </h2>
+            <div class="review-cards-wrap">
+               <div class="review-card-items-wrap">
+                  <div class="review-card-item">
+                     <p class="card-desc">
+                        “Thank you for running the event so smoothly – I had a great time, not only presenting, but also watching other sessions and interacting with attendees.”
+                     </p>
+                     <div class="profile">
+                        <div class="thumb">
+                           <img src="assets/images/review/img.png" alt="Review Image">
+                        </div>
+                        <div class="content">
+                           <h5 class="name">Martha Smith</h5>
+                           <span>San Francisco</span>
+                        </div>
+                     </div>
+                     <ul class="rating-star list-unstyled d-flex">
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                     </ul>
+                     <span>5/5 Rating</span>
+                  </div>
+                  <div class="review-card-item ">
+                     <p class="card-desc">
+                        “Thank you for running the event so smoothly – I had a great time, not only presenting, but also watching other sessions and interacting with attendees.”
+                     </p>
+                     <div class="profile">
+                        <div class="thumb">
+                           <img src="assets/images/review/img2.png" alt="Review Image">
+                        </div>
+                        <div class="content">
+                           <h5 class="name">Martha Smith</h5>
+                           <span>San Francisco</span>
+                        </div>
+                     </div>
+                     <ul class="rating-star list-unstyled d-flex">
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                     </ul>
+                     <span>5/5 Rating</span>
+                  </div>
+                  <div class="review-card-item">
+                     <p class="card-desc">
+                        “Thank you for running the event so smoothly – I had a great time, not only presenting, but also watching other sessions and interacting with attendees.”
+                     </p>
+                     <div class="profile">
+                        <div class="thumb">
+                           <img src="assets/images/review/img3.png" alt="Review Image">
+                        </div>
+                        <div class="content">
+                           <h5 class="name">Martha Smith</h5>
+                           <span>San Francisco</span>
+                        </div>
+                     </div>
+                     <ul class="rating-star list-unstyled d-flex">
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                     </ul>
+                     <span>5/5 Rating</span>
+                  </div>
+                  <div class="review-card-item">
+                     <p class="card-desc">
+                        “Thank you for running the event so smoothly – I had a great time, not only presenting, but also watching other sessions and interacting with attendees.”
+                     </p>
+                     <div class="profile">
+                        <div class="thumb">
+                           <img src="assets/images/review/img2.png" alt="Review Image">
+                        </div>
+                        <div class="content">
+                           <h5 class="name">Martha Smith</h5>
+                           <span>San Francisco</span>
+                        </div>
+                     </div>
+                     <ul class="rating-star list-unstyled d-flex">
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                     </ul>
+                     <span>5/5 Rating</span>
+                  </div>
+                  <div class="review-card-item">
+                     <p class="card-desc">
+                        “Thank you for running the event so smoothly – I had a great time, not only presenting, but also watching other sessions and interacting with attendees.”
+                     </p>
+                     <div class="profile">
+                        <div class="thumb">
+                           <img src="assets/images/review/img3.png" alt="Review Image">
+                        </div>
+                        <div class="content">
+                           <h5 class="name">Martha Smith</h5>
+                           <span>San Francisco</span>
+                        </div>
+                     </div>
+                     <ul class="rating-star list-unstyled d-flex">
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                     </ul>
+                     <span>5/5 Rating</span>
+                  </div>
+                  <div class="review-card-item">
+                     <p class="card-desc">
+                        “Thank you for running the event so smoothly – I had a great time, not only presenting, but also watching other sessions and interacting with attendees.”
+                     </p>
+                     <div class="profile">
+                        <div class="thumb">
+                           <img src="assets/images/review/img.png" alt="Review Image">
+                        </div>
+                        <div class="content">
+                           <h5 class="name">Martha Smith</h5>
+                           <span>San Francisco</span>
+                        </div>
+                     </div>
+                     <ul class="rating-star list-unstyled d-flex">
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                     </ul>
+                     <span>5/5 Rating</span>
+                  </div>
+                  <div class="review-card-item">
+                     <p class="card-desc">
+                        “Thank you for running the event so smoothly – I had a great time, not only presenting, but also watching other sessions and interacting with attendees.”
+                     </p>
+                     <div class="profile">
+                        <div class="thumb">
+                           <img src="assets/images/review/img2.png" alt="Review Image">
+                        </div>
+                        <div class="content">
+                           <h5 class="name">Martha Smith</h5>
+                           <span>San Francisco</span>
+                        </div>
+                     </div>
+                     <ul class="rating-star list-unstyled d-flex">
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                     </ul>
+                     <span>5/5 Rating</span>
+                  </div>
+                  <div class="review-card-item">
+                     <p class="card-desc">
+                        “Thank you for running the event so smoothly – I had a great time, not only presenting, but also watching other sessions and interacting with attendees.”
+                     </p>
+                     <div class="profile">
+                        <div class="thumb">
+                           <img src="assets/images/review/img3.png" alt="Review Image">
+                        </div>
+                        <div class="content">
+                           <h5 class="name">Martha Smith</h5>
+                           <span>San Francisco</span>
+                        </div>
+                     </div>
+                     <ul class="rating-star list-unstyled d-flex">
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                     </ul>
+                     <span>5/5 Rating</span>
+                  </div>
+                  <div class="review-card-item">
+                     <p class="card-desc">
+                        “Thank you for running the event so smoothly – I had a great time, not only presenting, but also watching other sessions and interacting with attendees.”
+                     </p>
+                     <div class="profile">
+                        <div class="thumb">
+                           <img src="assets/images/review/img.png" alt="Review Image">
+                        </div>
+                        <div class="content">
+                           <h5 class="name">Martha Smith</h5>
+                           <span>San Francisco</span>
+                        </div>
+                     </div>
+                     <ul class="rating-star list-unstyled d-flex">
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                        <li class="active"><i class="fas fa-star"></i></li>
+                     </ul>
+                     <span>5/5 Rating</span>
+                  </div>
+               </div>
+               <div class="carousel-nav">
+                  <button type="button" class="main-left-arrow"><i class="fa-solid fa-chevron-left"></i></button>
+                  <button type="button" class="main-right-arrow"><i class="fa-solid fa-chevron-right"></i></button>
+               </div>
+               <div class="dots">
+                  <img src="assets/images/dots/dots11.png" alt="Shadow Image">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- review sec end -->
+      
+      <!-- pricing sec start -->
+      <section id="pricing" class="pricing-sec">
+         <div class="container">
+            <div class="section-head col-xl-8 m-auto text-center px-5">
+               <span class="label">Choose The Best Ticket For You</span>
+               <h2 class="title mb-4">
+                  Event price list 2023. Buy your tickets now
+                  for Eventor Conference
+               </h2>
+               <p class="desc mb-5">
+                  Eventor is a 7-day conference with an extra day of workshops. There’s a mix of short
+                  45 minute talks and longer keynotes, giving you insights in a wide range of topics.
+               </p>
+            </div>
+            <div class="pricing-cart-wrap">
+               <div class="row row-cols-1 row-cols-lg-3 g-4">
+                  <div class="col col-md-6 col-lg-4">
+                     <div class="card  h-100" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <div class="card-body">
+                           <span class="card-lable"><i class="fa-sharp fa-solid fa-circle"></i>Out of Pocket Discount</span>
+                           <h3 class="price-pacage">$190 <span class="regular-price">/ regular price</span>
+                           </h3>
+                           <ul>
+                              <li><a href=""><i class="fa-solid fa-check"></i>Regular price: $190 until Sept 20</a></li>
+                              <li><a href=""><i class="fa-solid fa-check"></i>Last minute price: $490 until the end</a></li>
+                           </ul>
+                           <div class="card-btn">
+                              <button class="custom-btn custom-btn2 mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              <span class="card-footer-label">When you don't need a VAT invoice</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col col-md-6 col-lg-4">
+                     <div class="card h-100" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <div class="card-body">
+                           <span class="card-lable"><i class="fa-sharp fa-solid fa-circle"></i>Professional Discount</span>
+                           <h3 class="price-pacage">$290 <span class="regular-price">/ regular price</span>
+                           </h3>
+                           <ul>
+                              <li><a href=""><i class="fa-solid fa-check"></i>Regular price: $190 until Sept 20</a></li>
+                              <li><a href=""><i class="fa-solid fa-check"></i>Last minute price: $490 until the end</a></li>
+                           </ul>
+                           <div class="card-btn">
+                              <button class="custom-btn custom-btn2 mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              <span class="card-footer-label">When you don't need a VAT invoice</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col col-md-6 col-lg-4">
+                     <div class="card h-100" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <div class="card-body">
+                           <span class="card-lable"><i class="fa-sharp fa-solid fa-circle"></i>Company Discount</span>
+                           <h3 class="price-pacage">$390 <span class="regular-price">/ regular price</span>
+                           </h3>
+                           <ul>
+                              <li><a href=""><i class="fa-solid fa-check"></i>Regular price: $190 until Sept 20</a></li>
+                              <li><a href=""><i class="fa-solid fa-check"></i>Last minute price: $490 until the end</a></li>
+                           </ul>
+                           <div class="card-btn">
+                              <button class="custom-btn custom-btn2 mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                              <span class="card-footer-label">When you don't need a VAT invoice</span>
+                           </div>
+                           
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="dots img-moving-anim1">
+                  <img src="assets/images/dots/dots12.png" alt="Shadow Image">
+               </div>
+            </div>
+         </div>
+         <div class="shape">
+            <img src="assets/images/shape/5.svg" alt="Shape">
+         </div>
+      </section>
+      <!-- pricing sec end -->
+      <div class="container">
+         <hr>
+      </div>
+      <!-- faq sec start -->
+      <section class="faq-sec">
+         <div class="container">
+            <div class="row align-items-end">
+               <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right" data-aos-duration="1000">
+                  <div class="title-area">
+                     <h2 class="title mb-3">
+                        Frequently asked questions,
+                        about the conference
+                     </h2>
+                     <p class="desc mb-5">
+                        Eventor Collaborative, brought to you by IBM, is where the most inventive and forward-thinking nonprofit leaders come together
+                        to discover emerging trends in fundraising and technology.
+                     </p>
+                     
+                     <button class="faq-btn custom-btn">Learn More</button>
+                  </div>
+               </div>
+               <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                  <div class="question-area">
+                     <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingOne">
+                              <button class="accordion-button" type="button"          data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                 Is this Eventor Conference 2023 for me?
+                              </button>
+                           </h2>
+                           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 Are you a developer interested in building web applications and at the same time thinking about multiple parts of the stack needed to build them? Then this conference is for you. Many of the sessions either touch a specific concept or go about multiple parts of the stack.
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                 Can I change the attendee name on the ticket?
+                              </button>
+                           </h2>
+                           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 Are you a developer interested in building web applications and at the same time thinking about multiple parts of the stack needed to build them? Then this conference is for you. Many of the sessions either touch a specific concept or go about multiple parts of the stack.
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                 Can I change the attendee name on the ticket?
+                              </button>
+                           </h2>
+                           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 Are you a developer interested in building web applications and at the same time thinking about multiple parts of the stack needed to build them? Then this conference is for you. Many of the sessions either touch a specific concept or go about multiple parts of the stack.
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingFour">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                 What is included in the ticket prices?
+                              </button>
+                           </h2>
+                           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 Are you a developer interested in building web applications and at the same time thinking about multiple parts of the stack needed to build them? Then this conference is for you. Many of the sessions either touch a specific concept or go about multiple parts of the stack.
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- faq sec end -->
+      <div class="container">
+         <hr>
+      </div>
+      <!-- gallery sec start -->
+      <section class="gallery-sec" data-aos="fade-up" data-aos-duration="1200">
+         <div class="container-fluid">
+         <div class="col-xl-8 section-head text-center m-auto mb-5">
+            <span class="label">Contact The Eventor Sales Team</span>
+            <h2 class="title ">
+               Relive the best moments from the Conference 2022
+               through video and photos in our gallery
+            </h2>
+         </div>
+         
+         <div class="image-gallery-wrap zoom-gallery d-flex align-items-center">
+            
+            <div class="row g-4">
+               <div class="col-md-6 col-lg-4">
+                  <div class="image-gallery-item" data-aos="fade-up" data-aos-duration="1000">
+                     <a class="item-thumb" href="assets/images/gallery/img-gallery1.png">
+                        <img src="assets/images/gallery/img-gallery1.png" alt="Image Gallery 1"> 
+                        <span class="view">VIEW</span>
+                     </a>
+                     
+                  </div>
+               </div>
+               <div class="col-md-6 col-lg-4">
+                  <div class="image-gallery-item" data-aos="fade-up" data-aos-duration="800">
+                     <a class="item-thumb" href="assets/images/gallery/img-gallery2.png">
+                        <img src="assets/images/gallery/img-gallery2.png" alt="Image Gallery 2">
+                        <span class="view">VIEW</span>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-md-6 col-lg-4">
+                  <div class="image-gallery-item" data-aos="fade-up" data-aos-duration="600">
+                     <a class="item-thumb" href="assets/images/gallery/img-gallery3.png">
+                        <img src="assets/images/gallery/img-gallery3.png" alt="Image Gallery 3">
+                        <span class="view">VIEW</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="shape">
+            <img src="assets/images/shape/6.svg" alt="Shape">
+         </div>
+      </div>
+      </section>
+      <!-- gallery sec end -->
+      
+      <!-- contact sec start -->
+      <section class="contact-sec" data-aos="zoom-in" data-aos-duration="1000">
+         <div class="container">
+            <div class="col-xl-5 section-head text-center m-auto mb-5">
+               <span class="label">Contact The Eventor Sales Team</span>
+               <h2 class="title mx-2">
+                  We are here when you need us.
+                  Need immediate assistance?
+               </h2>
+            </div>
+            <div class="contact-wrap bg-none p-0">
+               <div class="dots">
+                  <img src="assets/images/dots/dots13.png" alt="Shadow Image" class="contact-dots-1 img-moving-anim2">
+               </div>
+               <div class="contact-wrap row py-4 px-3 contact align-items-center m-0">
+                  <div class="col-lg-4">
+                     <div class="contact-thumb-wrap" style="background-image: url(assets/images/banner/contact-bg.png);">
+                        <div class="contact-content">
+                           <h5 class="title text-white">Contact Us</h5>
+                           <p class="desc">
+                              Get in touch and let us know how 
+                              we can help.
+                           </p>
+                           <div class="info">
+                              <a class="icon d-block mb-3">
+                                 <img src="assets/images/icon/mail1.svg" alt="Mail" style="color: #fff;"> conference@eventor.com
+                              </a>
+                              <a class="location d-block mb-3">
+                                 <img src="assets/images/icon/map-pin2.svg" alt="Map"> conference@eventor.com
+                              </a>
+                              <a class="phone d-block">
+                                 <img src="assets/images/icon/phone3.svg" alt="Phone">
+                                 conference@eventor.com
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-8 mt-4 mt-lg-0">
+                     <form class="contact-form">
+                        <div class="row gy-3">
+                           <div class="col-lg-6">
+                              <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your First Name" required>
+                           </div>
+                           <div class="col-lg-6">
+                              <label for="exampleFormControlInput2" class="form-label">Last Name</label>
+                              <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Your Last Name" required>
+                           </div>
+                           <div class="col-lg-6">
+                              <label for="exampleFormControlInput3" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="Enter Email" required>
+                           </div>
+                           <div class="col-lg-6">
+                              <label for="exampleFormControlInput4" class="form-label">Subject</label>
+                              <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="Enter Subject" required>
+                           </div>
+                        </div>
+                        <div class="mb-3">
+                           
+                        </div>
+                        <div class="text-area col-12 mb-3">
+                           <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Your Comment" ></textarea>
+                        </div>
+                        <button class=" custom-btn2" type="submit">Submit</button>
+                     </form>
+                  </div>
+               </div>
+              
+               <div class="dots">
+                  <img src="assets/images/dots/dots14.png" alt="Shadow Image" class="contact-dots-2 img-moving-anim3">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- contact sec end -->
+      <div class="container">
+         <hr>
+      </div>
+
+      <!-- blog sec start -->
+      <section class="blog-sec" data-aos="fade-up" data-aos-duration="1000">
+         <div class="container">
+            <div class="section-head d-flex justify-content-between">
+               <h2 class="blog-title">
+                  Conference news and event industry trends
+               </h2>
+               <button class="blog-btn custom-btn">Our Blog</button>
+            </div>
+            <div class="blog-cards-wrap zoom-gallery">
+               <div class="dots img-moving-anim1">
+                  <img src="assets/images/dots/dots15.png" alt="Shadow Image" class="blog-dots-1">
+               </div>
+               <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800">
+                     <div class="card h-100 border-0">
+                        <a class="card-thumb item-thumb overflow-hidden" href="assets/images/blog/1.jpg">
+                           <img src="assets/images/blog/1.jpg" class="card-img-top" alt="image-not-found">
+                           <span class="view">VIEW</span>
+                        </a>
+                        <div class="card-body">
+                           <span class="label">Conference 2023</span>
+                           <h5 class="card-title">
+                              Event Technology Awards coveted People’s Choice Award voting open
+                           </h5>
+                           <p class="card-desc">Voting has opened today for #EventProfs to choose their favourite #EventTech supplier to win this year’s 10th anniversary edition of the People’s Choice Award.</p>
+                           <a class="blog-btn">Read More</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="600">
+                     <div class="card h-100 border-0">
+                        <a class="card-thumb item-thumb overflow-hidden" href="assets/images/blog/2.jpg">
+                           <img src="assets/images/blog/2.jpg" class="card-img-top" alt="image-not-found">
+                           <span class="view">VIEW</span>
+                        </a>
+                        <div class="card-body">
+                           <span class="label">Conference 2023</span>
+                           <h5 class="card-title">
+                              Events Industry Council announces Recipients of 2022 Global Awards
+                           </h5>
+                           <p class="card-desc">The Events Industry Council (EIC), the global voice of the business events industry,has today announced the Recipients of its annual Global Awards.</p>
+                           <a class="blog-btn">Read More</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="400">
+                     <div class="card h-100 border-0 position-relative">
+                        <a class="card-thumb item-thumb overflow-hidden" href="assets/images/blog/3.jpg">
+                           <img src="assets/images/blog/3.jpg" class="card-img-top" alt="image-not-found">
+                           <span class="view">VIEW</span>
+                        </a>
+                        <div class="card-body">
+                           <span class="label">Conference 2023</span>
+                           <h5 class="card-title">
+                              The Business of Events confirms ICC Wales as latest official partner
+                           </h5>
+                           <p class="card-desc">The Business of Events has confirmed ICC Wales as its latest official partner for its 2022 programme.  ICC Wales joins the Department for Digital, Culture, Media & Sport.</p>
+                           <a class="blog-btn">Read More</a>
+                        </div>
+                        <img src="assets/images/dots/dots16.png" alt="Shadow Image" class="blog-dots-2 img-moving-anim1">
+                     </div>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+         <div class="shape">
+            <img src="assets/images/shape/7.svg" alt="Shape">
+         </div>
+      </section>
+      <!-- blog sec end -->
+      
+      <!-- footer area start -->
+      <footer class="footer-area" style="background-image: url(assets/images/banner/Footer.png);">
+         <div class="container">
+            <div class="footer-top">
+               <div class="row">
+                  <div class=" col-lg-6">
+                     <div class="row">
+                        <div class="col-sm-6 col-lg-8 ">
+                           <div class="footer-info">
+                              <a href="index.html" class="footer-logo">
+                                 <img src="assets/images/logo/footerlogo.png" alt="Footer Logo">
+                              </a>
+                              <p class="footer-desc">
+                                 Join 5,000+ dev and designers professionals for the world’s largest virtual conference series with 4+ fully immersive events covering the newest technology innovations, best practices, and more.
+                              </p>
+                              <ul class="footer-social social">
+                                 <li>
+                                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                           <div class="footer-about custom-item">
+                              <h5 class="title">About</h5>
+                              <ul class="about-item">
+                                 <li><a href="">Conference Schedule</a></li>
+                                 <li><a href="">Buy Tickets</a></li>
+                                 <li><a href="">Sponsoring</a></li>
+                                 <li><a href="">Volunteer</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class=" col-lg-6">
+                     <div class="row">
+                        
+                        <div class="col-sm-6">
+                           <div class="footer-enterprise custom-item">
+                              <h5 class="title">Enterprise</h5>
+                              <ul class="enterprise-item">
+                                 <li><a href="">Committees</a></li>
+                                 <li><a href="">Advisory Boards</a></li>
+                                 <li><a href="">Apply to Speak</a></li>
+                                 <li><a href="">Register</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="footer-contact custom-item">
+                              <h5 class="title">Contact</h5>
+                              <ul class="contact-item">
+                                 <li><a href="">Help Desk</a></li>
+                                 <li><a href="">Comntact Us</a></li>
+                                 <li><a href="">Documentation</a></li>
+                                 <li><a href="">Newsletter</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <hr>
+            <div class="footer-copyright-area text-center pb-3">
+               <span>© 2022 Eventor. All rights reserved. Theme made with passion by jThemes Studio</span> 
+            </div>
+         </div>
+      </footer>
+      <!-- footer area end -->
+      
+      
+
+      
+      <!-- Modal -->
+      <div class="modal fade popup-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+         <div class="modal-dialog modal-lg popup-dialogue modal-dialog-centered">
+            <div class="modal-content popup-content p-4 bg-white">
+               <button type="button" class="btn btn-secondary  ms-auto" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i></button>
+               
+               <div class="modal-body popup-body">
+                  <iframe width="100%" height="400" src="https://www.youtube.com/embed/1dtzSRlfBDk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+               
+            </div>
+         </div>
+      </div>
+      
+      <!-- Button trigger modal -->
+      
+      <!-- Modal 2 -->
+      <div class="modal  popup-box fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+         <div class="modal-dialog popup-box-dialog modal-dialog-centered">
+            <div class="modal-content popup-box-content">
+               <div class="popup-card" style="width:100%">
+                  <button type="button" class="btn popup2-btn  ms-auto" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i></button>
+                  <img src="assets/images/popup.png" class="card-img-top" alt="popup-bg">
+                  <div class="card-body popup-card-body">
+                     <div class="popup-title-area">
+                        <p class="popup-sub">October 2, 2023</p>
+                        <h5 class="card-title popup-title">Virtual sessions. Eventor Live@MAX</h5>
+                     </div>
+                     <a href="#" class="btn popup-play" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa-solid fa-play"></i></a>
+                  </div>
+                              
+                     <div id="eventbrite-widget-container-443112520477"></div>
+
+                     <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+                     
+                     <script type="text/javascript">
+                        var exampleCallback = function() {
+                           console.log('Order complete!');
+                        };
+                     
+                        window.EBWidgets.createWidget({
+                           // Required
+                           widgetType: 'checkout',
+                           eventId: '443112520477',
+                           iframeContainerId: 'eventbrite-widget-container-443112520477',
+                     
+                           // Optional
+                           iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                           onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+                        });
+                     </script>
+      
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      
+      
+   </div>
+   <!-- jquery -->
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/js/jquery.countdown.min.js"></script>
+   
+   <!-- animation -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   
+   <!-- magnific popup -->
+   <script src="assets/js/jquery.magnific-popup.min.js"></script>
+   
+   <!-- bootstrap -->
+   <script src="assets/js/bootstrap.min.js"></script>
+   
+   <!-- slick -->
+   <script src="assets/js/slick.min.js"></script>
+   
+   <!-- parallax js -->
+   <script src="assets/js/parallax.min.js"></script>
+   
+   <!-- javaScript -->
+   <script src="assets/js/main.js"></script>
+
+   <!-- color switch -->
+   <script src="color-switch/switch.js"></script>
+   
+   
+</body>
+</html>

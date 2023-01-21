@@ -1,0 +1,74 @@
+/* footer area start */
+.footer-area {
+    background-size: cover;
+    background-position: center;
+    .footer-top {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        .footer-info {
+            margin-left: 30px;
+            .footer-logo {
+                margin-bottom: 30px;
+                display: block;
+            }
+            .footer-desc {
+                font-family: 'Outfit';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 120%;
+                color: #BCBCBC;
+                margin-bottom: 40px;
+            }
+            
+        }
+        .footer-about {
+            .title {
+                font-size: 16px;
+                font-weight: 700;
+                color: #fff;
+                margin-left: 30px;
+                margin-bottom: 35px;
+            }
+        }
+        .footer-enterprise {
+            .title {
+                font-size: 16px;
+                font-weight: 700;
+                color: #fff;
+                margin-left: 30px;
+                margin-bottom: 35px; 
+            }
+        }
+        .footer-contact {
+            .title {
+                font-size: 16px;
+                font-weight: 700;
+                color: #fff;
+                margin-left: 30px;
+                margin-bottom: 35px; 
+            }
+        }
+    }
+
+    .custom-item {
+        a{
+            line-height: 3;
+            color: #BCBCBC;
+        }
+    }
+
+    hr {
+        color: $text__color;
+    }
+    .footer-copyright-area {
+        span {
+            color: #BCBCBC ;
+            
+        }
+    }
+
+
+}
+/* footer area end */
+

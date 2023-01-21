@@ -1,0 +1,100 @@
+/* review sec start */
+.review-sec {
+    padding: 100px 0px;
+    .review-title {
+        font-weight: 600;
+    }
+    .review-cards-wrap {
+        position: relative;
+        margin-bottom: 50px;
+        .review-card-items-wrap {
+            .review-card-item {
+                background-color: #fff;
+                margin: 0px 15px;
+                padding: 20px;
+                border-radius: 20px;
+                .card-desc {
+                    font-size: 18px;
+                    color: $text_para__color;
+                }
+                .profile {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 30px;
+                    .thumb {
+                        margin-right: 20px;
+                    }
+                    .content {
+                        .name {
+                            font-size: 18px;
+                            font-weight: 600;
+                        }
+                        span {
+                            font-size: 14px;
+                            color: $text_para__color;
+                        }
+                    }
+                }
+                .rating-star {
+                    i {
+                        color:#F3B545;
+                    }
+                }
+                span {
+                    font-size: 16px;
+                    color: $text_para__color;
+                }
+            }
+        }
+        .carousel-nav {
+            position: absolute;
+            top: -90px;
+            right: 30px;
+            button {
+                width: 48px;
+                height: 48px;
+                background-color: transparent;
+                border-radius: 50%;
+                border: 1px solid #fff;
+                color: #fff;
+                transition: .7s;
+                &:hover {
+                    background: linear-gradient(#7579FF,#B224EF);
+                    transition: .7s;
+                    border: 1px;
+                }
+            }
+            
+        }
+        .dots {
+            position: absolute;
+            bottom: -69px;
+            left: -30px;
+            opacity: .5;
+            z-index: 0;
+        
+        }
+    }
+    .slick-slider {
+        z-index: 1;
+    }
+    .slick-dots {
+        bottom: -50px;
+        li {
+            height: 14px;
+                width: 14px;
+                border-radius: 50%;
+                background-color: #fff;
+                color: #fff;
+                display: inline-block;
+                &.slick-active {
+                    background: $gradient_base__color;
+                    border-radius: 32px;
+                    width: 44px;
+                    height: 14px;
+                }
+        }
+        
+    }
+}
+/* review sec end */

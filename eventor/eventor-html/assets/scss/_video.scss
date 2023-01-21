@@ -1,0 +1,82 @@
+/* video sec start */
+.video-sec {
+    padding: 100px 0px;
+    .video-wrap {
+        position: relative;
+        .video-image {
+            img {
+                border-radius: 20px;
+                width: 65%;
+            }
+        }
+        .video-play {
+            position: absolute;
+            top: 250px;
+            right: 0px;
+            img {
+                border-radius: 20px;
+            }
+            .video-btn1 {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                background-color: #fff;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                i {
+                    color: #B224EF
+                }
+            }
+        }
+        .dots {
+            position: absolute;
+            top: -50px;
+            right: 160px;
+            opacity: 0.9;
+            z-index: -1;
+        }
+    }
+    .video-content-wrap {
+        position: relative;
+        // margin-top: 50px;
+        margin-left: 108px;
+        .title {
+            margin-bottom: 25px;
+        }
+        .desc {
+            font-size: 18px;
+            color: $text_para__color;
+            margin-right: 30px;
+            margin-bottom: 30px;
+        }
+        .management {
+            margin-bottom: 20px;
+            .count-block {
+                font-size: 22px;
+                font-weight: 600;
+                color: $text__color;
+            }
+            span {
+                background: $gradient_base__color;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                font-size: 50px; 
+                display: block;
+            }
+        }
+        .dots {
+            position: absolute;
+            bottom: 20px;
+            right: -50px;
+            opacity: .8;
+            
+        }
+    }
+}
+/* video sec end */

@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Our Blog</title>
+   
+   <!-- google font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+   
+   <!-- animation -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+   
+   <!-- magnific popup -->
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+   
+   <!-- font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+   integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+   crossorigin="anonymous" referrerpolicy="no-referrer">
+   
+   <!-- slik carousel -->
+   <link rel="stylesheet" href="assets/css/slick-theme.css">
+   <link rel="stylesheet" href="assets/css/slick.css">
+   
+   <!-- bootstrap -->
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   
+   <!-- css -->
+   <link rel="stylesheet" href="assets/css/style.css">
+   
+</head>
+<body>
+   <div class="body-wrap blog-page">
+      <!-- header area start -->
+      <header class="header-area d-block">
+         <nav class="header-nav header-nav-2 navbar fixed-top navbar-expand-lg position-absolute w-100">
+            <div class="container header-nav-menu">
+               <a class="navbar-brand" href="index.html">
+                  <img src="assets/images/logo/logo.png" alt="Header Logo">
+               </a>
+               
+               <div class="collapse navbar-collapse d-none d-lg-block">
+                  <ul class="navbar-nav m-auto">
+                     <li class="nav-item">
+                        <a href="index.html" class="nav-link py-3">Homepages</a>
+                        <div class="drop-down">
+                           <div class="row drop-down-wrap g-0">
+                              <div class="col-7">
+                                 <ul class="drop-down-menu">
+                                    <li class="dropdown-item d-flex align-items-center">
+                                       <div class="item-icon">
+                                          <img src="assets/images/icon/icon.svg" alt="icon Images">
+                                       </div>
+                                       <a href="index.html" class="item-content">
+                                          <h5 class="item-title">Homepage Conference</h5>
+                                          <span class="item-sub">Sessions Overview</span>
+                                       </a>
+                                    </li>
+                                    <li class="dropdown-item d-flex align-items-center">
+                                       <div class="item-icon">
+                                          <img src="assets/images/icon/icon2.svg" alt="icon Images">
+                                       </div>
+                                       <a href="index-music.html" class="item-content">
+                                          <h5 class="item-title">Homepage Music</h5>
+                                          <span class="item-sub">Sessions Overview</span>
+                                       </a>
+                                    </li>
+                                    <li class="dropdown-item d-flex align-items-center">
+                                       <div class="item-icon">
+                                          <img src="assets/images/icon/icon3.svg" alt="icon Images">
+                                       </div>
+                                       <a href="index-eventbrite.html" class="item-content">
+                                          <h5 class="item-title">Homepage Eventbrite</h5>
+                                          <span class="item-sub">Sessions Overview</span>
+                                       </a>
+                                    </li>
+                                    <li class="dropdown-item d-flex align-items-center">
+                                       <div class="item-icon">
+                                          <img src="assets/images/icon/icon4.svg" alt="icon Images">
+                                       </div>
+                                       <a href="index-dark.html" class="item-content">
+                                          <h5 class="item-title">Homepage Dark</h5>
+                                          <span class="item-sub">Sessions Overview</span>
+                                       </a>
+                                    </li>
+                                 </ul>
+                              </div>
+                              <div class="col-5">
+                                 <div class="dropdown-thumb position-relative" style="background-image: url(assets/images/banner/home-conference-dropdown-bg.jpg);">
+                                    <a class="dropdown-sub position-absolute" href="#">Register Now</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#about" class="nav-link py-3">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#schedule" class="nav-link py-3">Schedule</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#sponsors" class="nav-link py-3">Sponsors</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#speakers" class="nav-link py-3">Speakers</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#pricing" class="nav-link py-3">Pricing</a>
+                     </li>
+                  </ul>
+                  <div class="mode-and-button d-flex align-items-center">
+                     <div class="mode me-md-3">
+                        <img src="assets/images/icon/sun.svg" alt="Sun" class="fa-sun" style="display: none;">
+                        <img src="assets/images/icon/moon.svg" alt="Moon" class="fa-moon">
+                     </div>
+                     <button class="header-btn custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+                  </div>
+               </div>
+
+               <!-- mobile menu -->
+               <div class="mobile-view-header d-block d-lg-none d-flex gap-3 align-items-center">
+                  <div class="mode me-3">
+                     <img src="assets/images/icon/sun.svg" alt="Sun" class="fa-sun" style="display: none;">
+                     <img src="assets/images/icon/moon.svg" alt="Moon" class="fa-moon">
+                  </div>
+                  <button class="header-btn custom-btn2" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Tickets</button>
+
+                  <a class="border rounded-1 py-1 px-2 bg-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                     <span class="navbar-toggler-icon nav-toggler-icon"></span>
+                  </a>
+
+                  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" >
+                     <div class="offcanvas-header">
+                        <a class="navbar-brand" href="index.html">
+                           <img src="assets/images/logo/logo.png" alt="Header Logo">
+                        </a>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                     </div>
+                     <div class="offcanvas-body">
+                        <div class="dropdown mt-3">
+                           <ul class="navbar-nav m-auto">
+                              <li class="nav-item">
+                                 <a href="index.html" class="nav-link py-3">Homepages</a>
+                                 <div class="drop-down">
+                                    <div class="row drop-down-wrap g-0">
+                                       <div class="col-7">
+                                          <ul class="drop-down-menu">
+                                             <li class="dropdown-item d-flex align-items-center">
+                                                <div class="item-icon">
+                                                   <img src="assets/images/icon/icon.svg" alt="icon Images">
+                                                </div>
+                                                <a href="#" class="item-content">
+                                                   <h5 class="item-title">Homepage Conference</h5>
+                                                   <span class="item-sub">Sessions Overview</span>
+                                                </a>
+                                             </li>
+                                             <li class="dropdown-item d-flex align-items-center">
+                                                <div class="item-icon">
+                                                   <img src="assets/images/icon/icon2.svg" alt="icon Images">
+                                                </div>
+                                                <a href="#" class="item-content">
+                                                   <h5 class="item-title">Homepage Conference</h5>
+                                                   <span class="item-sub">Sessions Overview</span>
+                                                </a>
+                                             </li>
+                                             <li class="dropdown-item d-flex align-items-center">
+                                                <div class="item-icon">
+                                                   <img src="assets/images/icon/icon3.svg" alt="icon Images">
+                                                </div>
+                                                <a href="#" class="item-content">
+                                                   <h5 class="item-title">Homepage Conference</h5>
+                                                   <span class="item-sub">Sessions Overview</span>
+                                                </a>
+                                             </li>
+                                             <li class="dropdown-item d-flex align-items-center">
+                                                <div class="item-icon">
+                                                   <img src="assets/images/icon/icon4.svg" alt="icon Images">
+                                                </div>
+                                                <a href="#" class="item-content">
+                                                   <h5 class="item-title">Homepage Conference</h5>
+                                                   <span class="item-sub">Sessions Overview</span>
+                                                </a>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                       <div class="col-5">
+                                          <div class="dropdown-thumb position-relative" style="background-image: url(assets/images/banner/home-conference-dropdown-bg.jpg);">
+                                             <span class="dropdown-sub position-absolute">Register Now</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="nav-item">
+                                 <a href="#about" class="nav-link py-3">About</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a href="#schedule" class="nav-link py-3">Schedule</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a href="#sponsors" class="nav-link py-3">Sponsors</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a href="#speakers" class="nav-link py-3">Speakers</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a href="#pricing" class="nav-link py-3">Pricing</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- end mobile menu -->
+            </div>
+         </nav>
+         
+      </header>
+      <!-- header area end -->
+      
+      <!-- blog  feature sec start  -->
+      
+      <section class="blog-feature-sec">
+         <div class="container">
+            <div class="row justify-content-center">	
+               <div class="col-lg-10 col-xl-8">
+                  <div class="section-head">		
+                     <h2 class="blog-feature-title">Relevant news and more for you. Welcome to our blog</h2>	
+                  </div>	
+               </div>
+            </div>
+            <div class="row blog-feature-wrap align-items-center mb-5 shadow g-0"  data-aos="fade-right" data-aos-duration="1000">
+               <div class="col-md-6 col-lg-7 blog-post-img mx-0 px-0">
+                  <div class="blog-feature-thumb">
+                     <img src="assets/images/blog/blog-featured.jpg" alt="Blog Feature Images">
+                  </div>
+               </div>
+               <div class="col-sm col-lg-5 blog-post-txt">
+                  <div class="blog-feature-content">
+                     <div class="blog-post-tag border-color d-flex justify-content-between">
+                        <a href="#"><i class="fa-solid fa-folder"></i>Eventor News</a>
+                        <a href="#" class="date-meta"><i class="fa-solid fa-calendar-days"></i>October 27, 2021</a>
+                     </div>
+                     
+                     <h5 class="blog-feature-title">
+                        Tempor sapien donec gravida a suscipit and porta justo vitae
+                     </h5>
+                     <p class="blog-feature-desc border-color">
+                        Mauris donec ociis et magnis sapien etiam sapien sem sagittis congue tempor gravida donec and ipsum aporta justo
+                     </p>
+                     <div class="blog-comment">
+                        <a href="#"><i class="fa-solid fa-message"></i> 0 Comments</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+            <!-- blog post area start -->
+            <div class="blog-post-area">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h5 class="posts-title border-color">Latest Articles</h5>
+                     </div>
+                  </div>
+                  <div class="blog-post-area-wrap">
+                     <div class="row">
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="600">
+                           <div class="blog-post-item">
+                              <div class="item-thumb">
+                                 <img src="assets/images/blog/post-1-img.jpg" alt="Post Images">
+                              </div>
+                              <div class="item-content">
+                                 <div class="post-tag border-color d-flex justify-content-between">
+                                    <a href="#" class="tutorial"><i class="fa-solid fa-folder"></i> EVENTOR NEWS</a>
+                                    <a href="#" class="date-meta"><i class="fa-solid fa-calendar-days"></i>October 27, 2021</a>
+                                 </div>
+                                 <h5 class="post-title"><a href="#">Mauris donec ociis et magnis sapien etiam sapien.</a></h5>
+                                 <p class="post-desc border-color">
+                                    Mauris donec ociis et magnis sapien etiam sapien sem sagittis congue tempor gravida donec and ipsum
+                                 </p>
+                                 <div class="post-meta">
+                                    <a href="#" class="comment"><i class="fa-solid fa-message"></i> 0 Messages</a>
+                                    <a href="#" class="read-btn"><i class="fa-solid fa-arrow-right"></i>Read More</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800">
+                           <div class="blog-post-item">
+                              <div class="item-thumb">
+                                 <img src="assets/images/blog/post-2-img.jpg" alt="Post Images">
+                              </div>
+                              <div class="item-content">
+                                 <div class="post-tag border-color d-flex justify-content-between">
+                                    <a href="#" class="tutorial"><i class="fa-solid fa-folder"></i> EVENTOR NEWS</a>
+                                    <a href="#" class="date-meta"><i class="fa-solid fa-calendar-days"></i>October 27, 2021</a>
+                                 </div>
+                                 <h5 class="post-title"><a href="#">Mauris donec ociis et magnis sapien etiam sapien.</a></h5>
+                                 <p class="post-desc border-color">
+                                    Mauris donec ociis et magnis sapien etiam sapien sem sagittis congue tempor gravida donec and ipsum
+                                 </p>
+                                 <div class="post-meta">
+                                    <a href="#" class="comment"><i class="fa-solid fa-message"></i> 0 Messages</a>
+                                    <a href="#" class="read-btn"><i class="fa-solid fa-arrow-right"></i>Read More</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="1000">
+                           <div class="blog-post-item">
+                              <div class="item-thumb">
+                                 <img src="assets/images/blog/post-3-img.jpg" alt="Post Images">
+                              </div>
+                              <div class="item-content">
+                                 <div class="post-tag border-color d-flex justify-content-between">
+                                    <a href="#" class="tutorial"><i class="fa-solid fa-folder"></i> EVENTOR NEWS</a>
+                                    <a href="#" class="date-meta"><i class="fa-solid fa-calendar-days"></i>October 27, 2021</a>
+                                 </div>
+                                 <h5 class="post-title"><a href="#">Mauris donec ociis et magnis sapien etiam sapien.</a></h5>
+                                 <p class="post-desc border-color">
+                                    Mauris donec ociis et magnis sapien etiam sapien sem sagittis congue tempor gravida donec and ipsum
+                                 </p>
+                                 <div class="post-meta">
+                                    <a href="#" class="comment"><i class="fa-solid fa-message"></i> 0 Messages</a>
+                                    <a href="#" class="read-btn"><i class="fa-solid fa-arrow-right"></i>Read More</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row align-items-end">
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="1000">
+                           <div class="blog-post-item">
+                              <div class="item-thumb">
+                                 <img src="assets/images/blog/post-4-img.jpg" alt="Post Images">
+                              </div>
+                              <div class="item-content">
+                                 <div class="post-tag border-color d-flex justify-content-between">
+                                    <a href="#" class="tutorial"><i class="fa-solid fa-folder"></i> EVENTOR NEWS</a>
+                                    <a href="#" class="date-meta"><i class="fa-solid fa-calendar-days"></i>October 27, 2021</a>
+                                 </div>
+                                 <h5 class="post-title"><a href="#">Mauris donec ociis et magnis sapien etiam sapien.</a></h5>
+                                 <p class="post-desc border-color">
+                                    Mauris donec ociis et magnis sapien etiam sapien sem sagittis congue tempor gravida donec and ipsum
+                                 </p>
+                                 <div class="post-meta">
+                                    <a href="#" class="comment"><i class="fa-solid fa-message"></i> 0 Messages</a>
+                                    <a href="#" class="read-btn"><i class="fa-solid fa-arrow-right"></i>Read More</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800">
+                           <div class="blog-post-item">
+                              <div class="item-thumb">
+                                 <img src="assets/images/blog/post-5-img.jpg" alt="Post Images">
+                              </div>
+                              <div class="item-content">
+                                 <div class="post-tag border-color d-flex justify-content-between">
+                                    <a href="#" class="tutorial"><i class="fa-solid fa-folder"></i> EVENTOR NEWS</a>
+                                    <a href="#" class="date-meta"><i class="fa-solid fa-calendar-days"></i>October 27, 2021</a>
+                                 </div>
+                                 <h5 class="post-title"><a href="#">Mauris donec ociis et magnis sapien etiam sapien.</a></h5>
+                                 <p class="post-desc border-color">
+                                    Mauris donec ociis et magnis sapien etiam sapien sem sagittis congue tempor gravida donec and ipsum
+                                 </p>
+                                 <div class="post-meta">
+                                    <a href="#" class="comment"><i class="fa-solid fa-message"></i> 0 Messages</a>
+                                    <a href="#" class="read-btn"><i class="fa-solid fa-arrow-right"></i>Read More</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="600">
+                           <div class="blog-post-item">
+                              <div class="item-thumb">
+                                 <img src="assets/images/blog/post-6-img.jpg" alt="Post Images">
+                              </div>
+                              <div class="item-content">
+                                 <div class="post-tag border-color d-flex justify-content-between">
+                                    <a href="#" class="tutorial"><i class="fa-solid fa-folder"></i> EVENTOR NEWS</a>
+                                    <a href="#" class="date-meta"><i class="fa-solid fa-calendar-days"></i>October 27, 2021</a>
+                                 </div>
+                                 <h5 class="post-title"><a href="#">Mauris donec ociis et magnis sapien etiam sapien.</a></h5>
+                                 <p class="post-desc border-color">
+                                    Mauris donec ociis et magnis sapien etiam sapien sem sagittis congue tempor gravida donec and ipsum
+                                 </p>
+                                 <div class="post-meta">
+                                    <a href="#" class="comment"><i class="fa-solid fa-message"></i> 0 Messages</a>
+                                    <a href="#" class="read-btn"><i class="fa-solid fa-arrow-right"></i>Read More</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- blog post area end -->
+            
+            <!-- blog newsletter area start -->
+            <div class="blog-newsletter-area py-5" data-aos="fade-up" data-aos-duration="1000">
+               <div class="container">
+                  <div class="blog-newsletter-wrap shadow-lg p-5 rounded-4">
+                     <div class="row align-items-center">
+                        <div class="col-md-6">
+                           <h4 class="newsletter-title">
+                              Stay up to date with our news, ideas and updates
+                           </h4>
+                        </div>
+                        <div class="col-md-6">
+                           <form action="#" class="newsletter-form">
+                              <input type="email" class="form-control" id="exampleFormControlInput9" placeholder="Enter Email">
+                              <button class="newsletter-btn custom-btn2">Subscribe</button>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            
+            <!-- blog newsletter area end -->
+            
+         </section>
+         
+         <!-- blog feature sec end  -->
+         
+         <!-- footer area start -->
+         <footer class="footer-area" style="background-image: url(assets/images/banner/Footer.png);">
+            <div class="container">
+               <div class="footer-top">
+                  <div class="row">
+                     <div class=" col-lg-6">
+                        <div class="row">
+                           <div class="col-md-6 col-lg-8 ">
+                              <div class="footer-info">
+                                 <a href="index.html" class="footer-logo">
+                                    <img src="assets/images/logo/footerlogo.png" alt="Footer Logo">
+                                 </a>
+                                 <p class="footer-desc">
+                                    Join 5,000+ dev and designers professionals for the world’s largest virtual conference series with 4+ fully immersive events covering the newest technology innovations, best practices, and more.
+                                 </p>
+                                 <ul class="footer-social social">
+                                    <li>
+                                       <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                       <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li>
+                                       <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="col-md-6 col-lg-4">
+                              <div class="footer-about custom-item">
+                                 <h5 class="title">About</h5>
+                                 <ul class="about-item">
+                                    <li><a href="">Conference Schedule</a></li>
+                                    <li><a href="">Buy Tickets</a></li>
+                                    <li><a href="">Sponsoring</a></li>
+                                    <li><a href="">Volunteer</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class=" col-lg-6">
+                        <div class="row">
+                           
+                           <div class="col-md-6">
+                              <div class="footer-enterprise custom-item">
+                                 <h5 class="title">Enterprise</h5>
+                                 <ul class="enterprise-item">
+                                    <li><a href="">Committees</a></li>
+                                    <li><a href="">Advisory Boards</a></li>
+                                    <li><a href="">Apply to Speak</a></li>
+                                    <li><a href="">Register</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="footer-contact custom-item">
+                                 <h5 class="title">Contact</h5>
+                                 <ul class="contact-item">
+                                    <li><a href="">Help Desk</a></li>
+                                    <li><a href="">Comntact Us</a></li>
+                                    <li><a href="">Documentation</a></li>
+                                    <li><a href="">Newsletter</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <hr>
+               <div class="footer-copyright-area text-center pb-3">
+                  <span>© 2022 Eventor. All rights reserved. Theme made with passion by jThemes Studio</span> 
+               </div>
+            </div>
+         </footer>
+         <!-- footer area end -->
+      </div>
+      
+      <!-- Modal -->
+      <div class="modal fade popup-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+         <div class="modal-dialog popup-dialogue">
+             <div class="modal-content popup-content">
+                 <button type="button" class="btn btn-secondary  ms-auto" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i></button>
+                 
+                 <div class="modal-body popup-body">
+                     <iframe width="600" height="400" src="https://www.youtube.com/embed/1dtzSRlfBDk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div>
+                 
+             </div>
+         </div>
+     </div>
+     
+     <!-- Button trigger modal -->
+     
+     <!-- Modal 2 -->
+     <div class="modal  popup-box fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+         <div class="modal-dialog popup-box-dialog">
+             <div class="modal-content popup-box-content">
+                 <div class="popup-card" style="width:100%">
+                     <button type="button" class="btn popup2-btn  ms-auto" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i></button>
+                     <img src="assets/images/popup.png" class="card-img-top" alt="popup-bg">
+                     <div class="card-body popup-card-body">
+                         <div class="popup-title-area">
+                             <p class="popup-sub">October 2, 2023</p>
+                             <h5 class="card-title popup-title">Virtual sessions. Eventor Live@MAX</h5>
+                         </div>
+                         <a href="#" class="btn popup-play" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa-solid fa-play"></i></a>
+                     </div>
+                     <form action="#" class="popup-form">
+                         <div class="row gy-3 mb-3">
+                             <div class="col-lg-6">
+                                 <label for="exampleFormControlInput5" class="form-label">Full Name</label>
+                                 <input type="text" class="form-control" id="exampleFormControlInput5" placeholder="Your Full Name">
+                             </div>
+                             <div class="col-lg-6">
+                                 <label for="exampleFormControlInput6" class="form-label">Email</label>
+                                 <input type="email" class="form-control" id="exampleFormControlInput6" placeholder="Enter Email">
+                             </div>
+                             <div class="col-lg-6">
+                                 <label for="exampleFormControlInput7" class="form-label">Phone</label>
+                                 <input type="text" class="form-control" id="exampleFormControlInput7" placeholder="Enter Phone">
+                             </div>
+                             <div class="col-lg-6">
+                                 <label for="exampleFormControlInput8" class="form-label">Conference</label>
+                                 <input type="text" class="form-control" id="exampleFormControlInput8" placeholder="Select Event">
+                             </div>
+                         </div>
+                         <button class="custom-btn2">Buy Now</button>
+                     </form>
+                 </div>
+             </div>
+         </div>
+     </div>
+      
+      <!-- jquery -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.countdown.min.js"></script>
+      
+      <!-- animation -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      
+      <!-- magnific popup -->
+      <script src="assets/js/jquery.magnific-popup.min.js"></script>
+      
+      <!-- bootstrap -->
+      <script src="assets/js/bootstrap.min.js"></script>
+      
+      <!-- slick -->
+      <script src="assets/js/slick.min.js"></script>
+      
+      <!-- parallax js -->
+      <script src="assets/js/parallax.min.js"></script>
+      
+      <!-- javaScript -->
+      <script src="assets/js/main.js"></script>
+   </body>
+   </html>

@@ -1,0 +1,187 @@
+/* hero sec start*/
+
+.hero-sec {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .hero-slider-item {
+        position: relative;
+        z-index: 1;
+        min-height: 900px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .item-content {
+        .item-title1 {
+            font-size: 62px;
+            color: $text__color;
+            line-height: 80px;
+            margin-bottom: 30px;
+        }
+        
+        .item-sub {
+            font-size: 20px;
+            color: $text__color;
+            line-height: 25px;
+            margin-bottom: 70px;
+        }
+        .button-group {
+                button:not(:last-child) {
+                    margin-right: 10px;
+                }
+                .item-btn {
+                    border: none!important;
+                }
+        }
+        .dots-1 {
+            position: absolute;
+            top: 180px;
+            left: 41px;
+        }
+    }
+    .item-image {
+        position: relative;
+        .img-1,
+        .img-2 {
+            position: relative;
+            img {
+                border-radius: 20px;
+            }
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+        .img-2 {
+            max-width: 320px;
+            float:right;
+            z-index: 1;
+            margin-top: -140px;
+            margin-right: -90px;
+        }
+        .dots-2 {
+            position: absolute;
+            top: 73px;
+            right: -130px;
+            opacity: .5;
+        }
+    }
+    .highlight-text {
+        font-family: 'Outfit';
+        // font-weight: 600;
+        font-size: 200px;
+        line-height: 260px;
+        color: rgba(255,255,255,0.5);
+        margin: -240px 0 0 -166px;
+        z-index: -1;
+        position: relative;
+    }
+    .item-content2 {
+        .item-title2 {
+            font-size: 100px;
+            color: $text__color;
+            line-height: 130px;
+            margin-bottom: 30px;
+        }
+        .conference-video {
+            text-align: center;
+            a {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                background-color: $dark__text__color;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                color: $base__color;
+            }
+        }
+        .highlight-text2 {
+            font-family: 'Outfit';
+            font-weight: 600;
+            font-size: 200px;
+            line-height: 260px;
+            color: rgba(255,255,255,0.5);
+            margin: 0px 0 0 0px;
+            z-index: -1;
+            position: relative;
+        }
+        
+    }
+    .dots {
+        
+        .dots-4{
+            position: absolute;
+            top: 40%;
+            right: -60px;
+            opacity: .5;
+            z-index: -1;
+        }
+    }
+
+}
+.item-video {
+    .img-3 {
+        position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    display: inline-flex;
+        img {
+        width: 100%;
+        display: block;
+        }
+       
+    }
+    a {
+        width: 70px;
+        height: 70px;
+        background-color: $dark__text__color;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        color: $base__color;
+        z-index: 1;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.dots-3{
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    opacity: .5;
+}
+.dots-5 {
+    position: absolute;
+    top: 130px;
+    right: 35px;
+    opacity: .5;
+    z-index: -1;
+}
+.highlight-text3 {
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 260px;
+    color: rgba(255,255,255,0.5);
+    margin: -100px 0 0 -85px;
+    z-index: -1;
+    position: relative;
+}
+.slide-2 {
+    margin-top: 120px;
+}
+.slide-3 {
+    margin-top: 150px;
+}
+
+
+/* hero sec end*/
+
+
+

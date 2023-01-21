@@ -1,0 +1,118 @@
+/* schedule sec start */
+.schedule-sec {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    position: relative;
+    .shape {
+        position: absolute;
+        top: 25%;
+        left: 0px;
+        z-index: -1;
+        img {
+            width: 300px;
+            height: 850px;
+        }
+    }
+    
+    .schedule-content-wrap {
+        padding: 40px;
+        background-color: #fff;
+        border-radius: 20px;
+        position: relative;
+        box-shadow: 0px 40px 70px rgb(75 3 116 / 15%);
+        .schedule-nav-tab {
+            justify-content: center;
+            .schedule-nav-item {
+                
+                button {
+                    background-color: transparent;
+                    color: $text__color;
+                    font-size: 16px;
+                    transition: .6s;
+                    &.active {
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            width: 8px;
+                            height: 8px;
+                            border-radius: 50%;
+                            background-color: #77BF41;
+                            margin-left: -30px;
+                            top: 75px;
+                        }
+                    }
+                    
+                }
+                &:hover {
+                    button {
+                        color: $base__color;
+                        transition: .6s;
+                    }
+                }
+            }
+        }
+        .schedule-tab-content {
+            padding: 0px 30px;
+            .schedule-item {
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                padding: 20px 40px;
+                border-radius: 20px;
+                overflow: hidden;
+                margin-bottom: 30px;
+                transition: 0.4s ease;
+                &:hover {
+                    transform: scale(1.01);
+                    transition: 0.4s ease;
+                    box-shadow: 0px 10px 20px 4px rgb(75 3 116 / 15%);
+                }
+                .card-description {
+                    text-align: center;
+                    .name {
+                        font-size: 16px;
+                        color: $base__color;
+                    }
+                    .date {
+                        font-size: 16px;
+                        color: $text__color;
+                        font-weight: 600;
+                    }
+                    .time {
+                        font-size: 16px;
+                        color: $text__color;
+                        font-weight: 600;
+                    }
+                }
+                .card-title-area {
+                    margin-top: 20px;
+                    .title {
+                        font-size: 18px;
+                        color: $text__color;
+                        font-weight: 600;
+                    }
+                    .title-desc {
+                        font-size: 14px;
+                        color: $text_para__color;
+                        a {
+                            color: $base__color;
+                        }
+                    }
+                }
+                .card-button {
+                    display: inline-flex;
+                    justify-content: center;
+                }
+            }
+        }
+        
+    }
+    .dots {
+        position: absolute;
+        bottom: -51px;
+        right: -35px;
+        opacity: 0.5;
+        z-index: -1;
+    }
+}
+/* schedule sec end */

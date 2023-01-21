@@ -1,0 +1,74 @@
+/* popup-modal start */
+
+.popup-modal {
+    
+    .popup-dialogue {
+        .popup-content {
+            border: none;
+            background-color: transparent;
+            button {
+                width: 40px;
+                height: 40px;
+                display: inline-block;
+                border-radius: 50%;
+                background-color: #fff;
+                color: black;
+                position: absolute;
+                top: -15px;
+                right: -15px;
+                z-index: 1;
+            }
+            .popup-body {
+                padding: 0px;
+                margin: 0px;
+            }
+        }
+    }
+}
+
+/* popup-modal end */
+
+/* popup-modal-2 start */
+.popup-box-content {
+
+    border-radius: 20px;
+}
+.popup-form {
+    padding: 25px;
+    input {
+        border: none;
+        background-color: #F3F3F3;
+    }
+}
+.popup-card-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    line-height: .5;
+    color: $dark__text__color;
+}
+.popup-play {
+    width: 40px;
+    height: 40px;
+    background-color: $base__color;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: $dark__text__color;
+}
+.popup2-btn {
+    position: absolute;
+    top: 0px;
+    z-index: 9999999;
+    color: #fff;
+    right: 0px;
+    border-radius: 50%;
+    border: none;
+}
+
+/*  popup-modal-2 end */
+
+

@@ -1,0 +1,332 @@
+.dark-version {
+    background-color: #292F3A;
+    .info-countdown {
+        background-color: #333;
+        &:before {
+            background: url(../images/counter-bg.png);
+            background-size: cover;
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            border-radius: 30px;
+            z-index: 0;
+        }
+        .counter-box {
+            position: relative;
+            z-index: 9;
+            span {
+                color: #fff !important;
+            }
+        }
+    }
+    .information-area {
+        .mail ,
+        .location,
+        .number {
+            border: .5px solid #BCBCBC;
+            .icon {
+                img {
+                    filter: invert(0.75) sepia(51) hue-rotate(136deg);
+                }
+                
+            }
+            a {
+                color: $dark__text__color;
+            }
+        }
+    }
+    .info-sec {
+        .dots {
+            opacity: 1;
+        }
+    }
+    .section-head {
+        .blog-title {
+            color: $dark__text__color;
+        }
+        .blog-btn {
+            border-color: $dark__base__color;
+            color: $dark__base__color;
+        }
+        .label {
+            background-color: #3d5d6e;
+            color: $dark__base__color;
+        }
+        .title {
+            color: $dark__text__color;
+        }
+        .desc {
+            color: $dark__text__color;
+        }
+    }
+    .cta-sec .cta-content-wrap .desc {
+        color: $dark__text__color;
+    }
+    .sec-head {
+        .label {
+            background-color: #b4d8eb;
+            color: $dark__base__color;
+        }
+        .title {
+            color: $dark__text__color;
+        }
+        .desc {
+            color: $dark__text__color;
+        }
+    }
+    .about-sec,
+    .schedule-sec,
+    .speakers-gallery-sec,
+    .pricing-sec,
+    .gallery-sec,
+    .contact-sec {
+        .dots {
+            opacity: 1;
+        }
+        .schedule-content-wrap {
+            background-color:#050718 ;
+            .schedule-nav-tab {
+                li {
+                    button {
+                        color: $dark__text__color;
+                    }
+                }
+            }
+            .schedule-btn {
+                border-color: $dark__base__color!important;
+                color: $dark__base__color!important;
+                &:hover {
+                    border: transparent;
+                }
+            }
+        }
+        .speakers-gallery-items-wrap {
+            .speakers-gallery-item {
+                .item-content {
+                    .title {
+                        color: $dark__text__color;
+                    }
+                    .sub {
+                        color: $dark__text__para__color;
+                    }
+                }
+            }
+        }
+        .contact-wrap {
+            background-color:#050718;
+            border-radius: 20px;
+            z-index: 9;
+            .dots {
+                .contact-dots-1 {
+                    opacity: 1;
+                }
+                .contact-dots-2 {
+                    opacity: 1;
+                }
+            } 
+        }
+        .card{
+            background-color: $dark__bg__color;
+            border: 1px solid #797979;
+            &:hover {
+                filter: drop-shadow(0px 20px 70px rgba(145, 207, 238, 0.1));
+                border: 1px solid transparent;
+            }
+            .card-body {
+                .card-lable {
+                    color: $dark__text__color;
+                }
+                ul {
+                    li {
+                        a {
+                            color: $dark__text__color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .cta-sec {
+        .cta-content-wrap{
+            .cta-title {
+                color: $dark__text__color;
+            }
+        } 
+        .cta-content-wrap {
+            .dots {
+                .cta-dots-2 {
+                    opacity: 1;
+                }
+                .cta-dots-1 {
+                    opacity: 1;
+                }
+            }
+        } 
+        
+    }
+    .faq-sec {
+        .title-area {
+            .title {
+                color: $dark__text__color;
+            }
+            .desc {
+                color: #E8E8E8;
+            }
+            
+        }
+        .question-area {
+            .accordion {
+                background-color: transparent!important;
+                .accordion-item {
+                    .accordion-header {
+                        background-color:#292F3A!important;
+                        .accordion-button {
+                            background-color:#292F3A!important;
+                            color:$dark__text__color;
+                            
+                        }
+                    }
+                    .accordion-collapse {
+                        .accordion-body {
+                            color: #E8E8E8;
+                            background-color:#292F3A!important;
+                        }
+                    }
+                }
+            }
+        }
+        .faq-btn {
+            border-color: $dark__base__color!important;
+            color: $dark__base__color!important;
+        }
+    }
+    .blog-sec {
+        
+        .blog-cards-wrap {
+            .card {
+                background-color: transparent;
+                .card-body {
+                    .label {
+                        background-color: #3d5d6e;
+                        color: $dark__base__color;
+                    }
+                    .card-title {
+                        color: $dark__text__color;
+                    }
+                    .card-desc {
+                        color: #E8E8E8;
+                    }
+                    .blog-btn {
+                        color:  $dark__base__color;
+                    }
+                    
+                }
+                .blog-dots-2 {
+                    opacity: 1;
+                }
+            }
+            .dots {
+                .blog-dots-1 {
+                    opacity: 1;
+                }
+            }
+            
+        }
+    }
+    .brand-sec {
+        .brand-items-wrap {
+            .brand-item {
+                color: #E8E8E8;
+            }
+        }
+    }
+    
+    .accordion-button:not(.collapsed)::after {
+        color: $dark__text__color;
+    }
+    
+    .accordion-button.collapsed::after {
+        color: $dark__text__color;
+        
+    }
+    .header-nav-2 {
+        background-color: #fff;
+    }
+    .blog-feature-sec {
+        .section-head {
+            .blog-feature-title {
+                color: #fff;
+            }
+        }
+    }
+    .blog-post-area {
+        .blog-post-area-wrap {
+            .blog-post-item {
+                .item-content {
+                    .post-tag a {
+                        color: #fff;
+                    }
+                    .post-title {
+                        a {
+                            color: $dark__text__color;
+                        }
+                    }
+                    .post-desc {
+                        color: #afa8a8;
+                    }
+                    .post-meta {
+                        .comment {
+                            color: $dark__text__color;
+                        }
+                        .read-btn {
+                            color: $dark__text__color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .blog-post-area {
+        .posts-title {
+            color: #fff;
+        }
+    }
+    .blog-newsletter-area {
+        .newsletter-title {
+            color: $dark__text__color;
+        }
+    }
+    .border-color {
+        border-color: #524452;
+    }
+    .blog-feature-sec {
+        .blog-feature-wrap {
+            .blog-feature-content {
+                background-color: #292F3A;
+                .blog-post-tag {
+                    a {
+                        color: $dark__text__color;
+                    }
+                } 
+                .blog-feature-title {
+                    color: $dark__text__color;
+                }
+                .blog-comment {
+                    a {
+                        color: $dark__text__color;
+                    }
+                }
+                .blog-feature-desc {
+                    color: #afa8a8;
+                }
+            }
+        }
+    }
+
+    .dots {
+        filter: invert(0.75) sepia(51) hue-rotate(136deg);
+    }
+}

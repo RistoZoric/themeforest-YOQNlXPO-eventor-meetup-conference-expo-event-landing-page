@@ -1,0 +1,110 @@
+/* header area start */
+.header-area {
+    
+    .header-nav {
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        position: absolute;
+        z-index: 33;
+        .header-nav-menu {
+            padding-top: 30px;
+        }
+        &.sticky {
+            background-color: $dark__text__color;
+            position: fixed!important;
+            box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
+            animation: 0.5s ease-in-out 0s normal none 1 running fadeInDown;
+            .header-nav-menu {
+                padding-top: 0px;
+            }
+            .drop-down {
+                top: 55px;
+            }
+        }
+        
+    }
+    .nav-item {
+        transition: .6s;
+        a {
+            font-size: 16px;
+            color: $text__color;
+            
+        }
+        &:hover {
+            transition: .6s;
+            .drop-down {
+                display: block;
+                
+            }
+        }
+    }
+    .mode-and-button {
+        .mode {
+            .light-mode {
+                margin-right: 20px;
+                font-size: 16px;
+                color: $text__color;
+            }
+        }
+    }
+    
+}
+.drop-down {
+    display: none;
+    transition: .6s;
+    content: '';
+    display: none;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    top: 82px;
+    position: fixed;
+    animation: 0.3s ease-in-out normal none 1 fadeInUp;
+    .drop-down-wrap {
+        width: 470px;
+        height: 300px;
+        background-color: $dark__text__color;
+        border-radius: 20px;
+        overflow: hidden;
+        .drop-down-menu {
+            padding: 30px;
+            .dropdown-item {
+                &:not(:last-child) {
+                    margin-bottom: 20px;
+                }
+                .item-content {
+                    margin-left: 8px;
+                    .item-title {
+                        font-size: 16px;
+                        line-height: 19px;
+                        margin: 0px;
+                        padding: 0px;
+                    }
+                    .item-sub{
+                        font-size: 12px;
+                        line-height: 12px;
+                        color: $text_para__color;
+                    }
+                }
+            }
+        }
+        .dropdown-thumb {
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            .dropdown-sub {
+                bottom: 40px;
+                left: 40px;
+                font-size: 18px;
+                color: $dark__text__color;
+            }
+        }
+    }
+}
+.header-nav-2 {
+    .drop-down {
+        top: 55px;
+    }
+}
+
+/* header area end */

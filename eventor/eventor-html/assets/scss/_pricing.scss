@@ -1,0 +1,116 @@
+/* pricing sec start */
+.pricing-sec {
+    padding: 100px 0px;
+    position: relative;
+    .shape {
+        position: absolute;
+        top: -165px;
+        left: 0px;
+        z-index: -1;
+        img {
+            width: 300px;
+        }
+    }
+}
+.section-head {
+    .label {
+        font-size: 14px;
+        color: $base__color;
+        background-color:#6600cc1a;
+        padding: 5px 14px;
+        border-radius: 32px;
+        display: inline-block;
+        margin-bottom: 22px;
+    }
+    .title {
+        font-weight: 600;
+    }
+    .desc {
+        font-size: 18px;
+        color: $text_para__color;
+    }
+}
+.pricing-cart-wrap {
+    position: relative;
+    .card {
+        border: 1px solid #E8E8E8;
+        transition: .3s;
+        border-radius: 20px!important;
+        .card-body {
+            padding: 35px 25px;
+            .card-lable {
+                font-size: 14px;
+                margin-bottom: 30px;
+                display: inline-block;
+                i {
+                    color: #77BF41;
+                    margin-right: 10px;
+                }
+            }
+            .price-pacage {
+                font-size: 42px;
+                font-weight: 600;
+                display: inline-block;
+                background: $gradient_base__color;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                .regular-price {
+                    font-size: 18px;
+                    background: linear-gradient(97.14deg, #BCBCBC 7.11%, #BCBCBC 97.04%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text!important;
+                    font-weight: 400;
+                }
+            }
+            
+            ul {
+                margin-left: -25px;
+                line-height: 2;
+                margin-bottom: 30px;
+                li {
+                    a {
+                        font-size: 16px;
+                        color: $text__color;
+                        i {
+                            color: #77BF41;
+                            padding-right: 8px
+                        }
+                    }
+                }
+            }
+            .card-btn {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+                button {
+                    display: inline-block;
+                    justify-content: center;
+                }
+                .card-footer-label {
+                    display: inline-block;
+                    font-size: 14px;
+                    color: #BCBCBC;
+                    margin: auto;
+                }
+            }
+        }
+        &:hover {
+            transition: 0.3s;
+            filter: drop-shadow(0px 40px 70px rgba(75, 3, 116, 0.15));
+            border: 1px solid transparent;
+        }
+    }
+    .dots {
+        position: absolute;
+        content: "";
+        top: -55px;
+        right: -35px;
+        opacity: 0.5;
+        z-index: -1;
+    }
+} 
+/* pricing sec end */

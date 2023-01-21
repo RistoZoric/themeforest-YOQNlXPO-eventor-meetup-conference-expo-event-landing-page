@@ -1,0 +1,98 @@
+/* contact sec start */
+.contact-sec {
+    padding: 100px 0px;
+    .contact-wrap {
+        position: relative;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 0px 40px 70px rgba(75, 3, 116, 0.15);
+        .contact-thumb-wrap{
+            background-size: cover;
+            background-position: center;
+            padding: 80px 40px;
+            border-radius: 32px;
+
+            .contact-content {
+                .title {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                .desc {
+                    font-size: 18px;
+                    color: #E8E8E8;
+                    margin-bottom: 30px;
+                }
+                .info {
+                    .icon,
+                    .location,
+                    .phone {
+                        border: 1px solid #fff;
+                        text-align: center;
+                        padding: 20px 0px;
+                        border-radius: 5px;
+                        color: #fff;
+                        font-size: 16px;
+                        cursor: pointer;
+                        img {
+                            margin-right: 15px;
+                        }
+                    }
+
+                }
+            }
+        }
+        .contact-form {
+        padding: 0px 50px;
+            label {
+                color: $text_para__color;
+                font-size: 16px;
+                
+            }
+            input {
+                background-color: #F3F3F3;
+                border: none;
+            }
+            textarea {
+                background-color: #F3F3F3;
+                border: none; 
+            }
+            .contact-btn {
+                background: linear-gradient(#7579FF,#B224EF
+                );
+                color: #fff;
+                transition: .7s;
+                &:hover {
+                    background: #fff;
+                    color: #B224EF;
+                    border-color: #B224EF;
+                    transition: .7s;
+                }
+            }
+            .form-control {
+                padding: 0.875rem 0.75rem!important;
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+            
+        }
+        .dots {
+            .contact-dots-1 {
+                position: absolute;
+                top: -50px;
+                left: -100px;
+                opacity: .5;
+                z-index: -1;
+            }
+            .contact-dots-2 {
+                position: absolute;
+                bottom: -40px;
+                right: -100px;
+                opacity: .5;
+                z-index: -1;
+            }
+        }
+    }
+}
+/* contact sec end */
